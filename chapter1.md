@@ -14,4 +14,9 @@
 |1.7.3.1|• 新增儲存 UID 至 SDK 的功能 <br>• 新增登出的功能|2015/09/16|Yikai|
 |1.7.3.2|• 更新 2.4 在 Xcode 設定遊戲專案環境 <br>• 更新附錄 B. Third-party SDK|2015/09/22|Yikai|
 |1.7.3.3|• 更新 3.2 與 SDK 介接方法<br>• 新增 8.3 取得未授權好友名單(FB_fetchInvitableToken)流程說明<br>• 新增 9.2 邀請好友(FB_sendInvitationWithToken)流程說明<br>• 新增附錄 C. Reference|2015/10/06|Yikai|
-|1.7.4|新增 AppsFlyer 功能(詳見 2.4 在 Xcode 設定遊戲專案環境以及 10.AppsFlyer 介接)|2015/11/02|Yikai|
+|1.7.4|•新增 AppsFlyer 功能(詳見 2.4 在 Xcode 設定遊戲專案環境以及 10.AppsFlyer 介接)<br>• 新增 SaveGameInfo 函式 (詳見 loginComplete)|2015/11/02|Yikai|
+|1.7.5|• 新增取得 Facebook 使用者基本資訊函式(詳見 8.1 取得使用者基本資訊(FB_getUserInfo)流程說明)<br>• 修改取得 Facebook 已授權好友名單函式(詳見 8.2 取得已授權好友名單(FB_getAuthFndList)流 程說明)<br>• 修改取得 Facebook 未授權好友名單函式(詳見 8.3 取得未授權好友名單 (FB_fetchInvitableToken)流程說明)<br>• 加入直版、橫版功能 (詳見 setIsLandscape)|2015/11/17|Yikai|
+|1.7.5.3|• 新增 Facebook 登入失敗訊息 <br>• 修改客服回報頁圖片上傳功能|2016/01/15|Yikai|
+|1.7.5.4|新增快登提醒|2016/03/01|Yikai|
+|1.7.5.5|交換快登提醒按鈕位置<br>文件加入輕量版功能說明|2016/03/02<br>2016/04/11|Yikai| 
+|1.7.6|• 更新登入介面與流程<br>• 解決 webview header 在有狀態列下會跑版的問題 <br>• 解決 reloginkey 登入時，伺服器維護無作用的問題|2016/07/11|Yikai|
