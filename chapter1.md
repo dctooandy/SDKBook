@@ -1,21 +1,18 @@
-# 增加 Import
+<table><tr><td bgcolor=lightgray>
+# Increase import
 
-每個遊戲的 Constant名稱略有不同,請參考實際檔案名稱
+Constant name of each game slightly different, please refer to the actual file name
 
-增加位置:
+Location:
+
 
 ```objectivec
-
----
-$$
-// 增加 import
-
+// Incrise import
 #import "xxxxConstant.h"
-$$
+```
+xxxxConstant.h
+Depent on your Edition
+It may be one of the following three
 
-```依照你的版本xxxxConstant.h 可能是下列三種其一
-<table><tr><td bgcolor=#C19A6B>
 
 
-
-</td></tr></table>***<table><tr><td bgcolor=lightgray>
