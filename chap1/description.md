@@ -59,4 +59,4 @@
 |Appsflyer追蹤|儲值(付費比、付費轉換率、ARPU)<br>下載來源(CPC)<br>啟動(DAU)<br>安裝(CPI)<br> 遊戲節點(玩家通過數)|<center> &#9745;</center>|<center> &#9745;</center>|
 |FB 社群|取得玩家FB 資訊 <br> 分享貼文 <br> 公版邀請<br>  客製化邀請|<center> &#9745;</center>||
 |維護/內測支援|阻擋任意 IP 連線|<center> &#9745;</center>||
-|登出會員||<center> &#9745;</center>||
+|登出會員||<center> &#9745;</center>| | |
