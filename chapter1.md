@@ -5,36 +5,12 @@
 |1.0|建立本文件|2014/06/20|Tony|
 |1.1|Step3.2.2 更新`<IsvDelegate>`與 `<UIApplicationDelegate>`內容 <br>Step3.2.3 刪除|2014/10/06|Tony|
 |1.1.3|Step2.1 調整開發商準備資料項目 <br>Step2.2 增加 iSGame 平台需提供資料|2014/10/28|Tony|
-|1.2
-• Step2.3 .plist 增加 status bar controller 跟 status bar hidden 的 code
-2014/12/26
-Tony
-1.3
-• 移除微博帳號登入功能
-• 移除 iSGame 帳號登入功能 • 增加 Google+帳號登入功能 • 增加英文顯示介面
-2015/01/23
-Tony
-1.4
-• 增加登入屏蔽功能
- 
-2015/02/04
- 
-Tony
-1.5
-• 增加 FB 行動應用程式碼
- 
-2015/02/12
-  
-Tony
- 
-1.6
-• 更新 Step2.5
-• 更新 Step2.6
-• 更新 Step3.2.2
-<UIApplicationDelegate>協定
-2015/06/09
-Tony
-1.7
+|1.2|Step2.3 .plist 增加 status bar controller 跟 status bar hidden 的 code|2014/12/26|Tony|
+|1.3|• 移除微博帳號登入功能<br>• 移除 iSGame 帳號登入功能 <br>• 增加 Google+帳號登入功能 <br>• 增加英文顯示介面|2015/01/23|Tony|
+|1.4|增加登入屏蔽功能|2015/02/04|Tony|
+|1.5|增加 FB 行動應用程式碼|2015/02/12|Tony|
+|1.6|• 更新 Step2.5<br>• 更新 Step2.6<br>• 更新 Step3.2.2`<UIApplicationDelegate>`協定|2015/06/09|Tony|
+|1.7
 • Facebook 登入改成使用 Facebook IOS SDK • 新增 Facebook 社交功能
 • 支援的 IOS 最低版本限制由 6.0 改為 7.0 以上
  
