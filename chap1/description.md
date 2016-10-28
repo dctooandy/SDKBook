@@ -46,17 +46,19 @@
 >可防止玩家登入正在停機維護的遊戲。請參考 12.登入屏蔽。
 
 #1.2 iSGame SDK 標準版/輕量版功能摘要
-|主功能| 子功能|iSGame SDK 標準版|iSGame SDK 輕量版|
+|<center>主功能</center>|<center>子功能</center>|iSGame SDK<br> 標準版|iSGame SDK <br>輕量版|
 |--|--|--|--|
-|客服|回報問題<br>檢視個人回報記錄|<center>&#9745;</center>|<center>&#9744;</center>|
-| 會員系統||||
-|登入&註冊會員||||
-|快登會員綁定||||
-|   公告||||
-|推播訊息||||
-|介面語系||||
-|版面方向||||
+|客服|回報問題<br>檢視個人回報記錄|<center>&#9745;</center>|<center>&#9745;</center>|
+| 會員系統|資料記錄<br>平台儲值<br>領取禮包|<center> &#9745;</center>||
+|登入&註冊會員|快登(試玩帳號登入)<br>FB 帳號登入<br> Google+帳號登入<br>同意服務條款 <br>快登提醒<br> 完成登入 callback|<center> &#9745;</center>||
+|快登會員綁定|FB 帳號綁定<br>Google+帳號綁定<br>完成綁定 callback|<center> &#9745;</center>||
+|公告|遊戲公告<br>活動公告|<center> &#9745;</center>||
+|推播訊息|全體玩家推播<br>指定玩家推播|<center> &#9745;</center>||
+|介面語系|中文介面<br>英文介面|<center> &#9745;</center>||
+|版面方向|直版畫面<br>橫版畫面|<center> &#9745;</center>||
+|Appsflyer追蹤|儲值(付費比、付費轉換率、ARPU)<br>下載來源(CPC)<br>啟動(DAU)<br>安裝(CPI)<br> 遊戲節點(玩家通過數)|<center> &#9745;</center>|<center> &#9745;</center>|
+|FB 社群|取得玩家FB 資訊 <br> 分享貼文 <br> 公版邀請<br>  客製化邀請|<center> &#9745;</center>||
+|維護/內測支援|阻擋任意 IP 連線|<center> &#9745;</center>||
+|登出會員||<center> &#9745;</center>||
 
-
-<center> &#9744;</center>
 <center> &#9745;</center>
