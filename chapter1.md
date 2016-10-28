@@ -14,8 +14,4 @@
 |1.7.3.1|• 新增儲存 UID 至 SDK 的功能 <br>• 新增登出的功能|2015/09/16|Yikai|
 |1.7.3.2|• 更新 2.4 在 Xcode 設定遊戲專案環境 <br>• 更新附錄 B. Third-party SDK|2015/09/22|Yikai|
 |1.7.3.3|• 更新 3.2 與 SDK 介接方法<br>• 新增 8.3 取得未授權好友名單(FB_fetchInvitableToken)流程說明<br>• 新增 9.2 邀請好友(FB_sendInvitationWithToken)流程說明<br>• 新增附錄 C. Reference|2015/10/06|Yikai|
-|1.7.4
-• 新增 AppsFlyer 功能
-(詳見 2.4 在 Xcode 設定遊戲專案環境以及 10.AppsFlyer 介接)
-2015/11/02
-Yikai
+|1.7.4|新增 AppsFlyer 功能(詳見 2.4 在 Xcode 設定遊戲專案環境以及 10.AppsFlyer 介接)|2015/11/02|Yikai|
