@@ -40,3 +40,16 @@
 >9.4 背景自動分享(FB_autoSharing)流程說明...
 
 10.AppsFlyer 介接
+
+>10.1 寄送追蹤事件(SendAFTrackEvent)流程說明...<br>
+>10.2 取得深層資料(GetAFConversionData)流程說明...<br>
+>10.3 設定使用者郵件(SetAFUserEmails)流程說明...
+
+11.訊息推播(APNS)<br>
+12.登入屏蔽<br>
+13.申請表單<br>
+附錄 
+
+>附錄 A. Message ...<br>
+>附錄 B. Third-party SDK...<br>
+>附錄 C. Reference...
