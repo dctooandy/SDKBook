@@ -6,7 +6,7 @@
 >1.1 iSGame SDK 功能...<br>
 >1.2 iSGame SDK 標準版/輕量版功能摘要 ...
 
-[2.開發環境準備](chap1/projectenvironment.md)
+[2.開發環境準備](../chap1/projectenvironment.md)
 
 >2.1 韌體最低版本...<br>
 >2.2 您需要給iSGame平台的遊戲相關資料...<br>
