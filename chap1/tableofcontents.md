@@ -15,7 +15,7 @@
 >2.5 將 SDK 匯入專案...<br>
 >2.6 添加所需bundle與frameworks...<br>
 
-3.登入介接
+[3.登入介接](../chap1/loginandplugin.md)
 
 >3.1 流程說明...<br>
 >3.2 與 SDK 介接方法...<br>
