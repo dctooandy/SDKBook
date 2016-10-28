@@ -14,7 +14,7 @@
 #目錄
 
 
-<div style="text-align:left;">1.文件說明...</div>
+<div style="text-align:left;">[1.文件說明](README.md)</div>
 
 ><div style="text-align:left;">1.1 iSGame SDK 功能...</div>
 ><div style="text-align:left;">1.2 iSGame SDK 標準版/輕量版功能摘要 ...</div>
