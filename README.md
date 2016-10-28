@@ -1,4 +1,4 @@
-SDK for iOS 介接指南
+#SDK for iOS 介接指南
 
 本文件適用範圍: iSGame SDK 標準版、iSGame SDK 輕量版
 
