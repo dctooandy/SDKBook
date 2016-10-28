@@ -1,2 +1,3 @@
-# ProjectEnvironment
+#開發環境準備
+2.1 韌體最低版本
 
