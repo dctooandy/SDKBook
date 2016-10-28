@@ -60,8 +60,6 @@ ISGameClientId => xxx(填入取得的 iSGame client_id)
 ISGameRedirectURI => xxx(填入取得的 iSGame redirect_uri)
 AppsFlyerDevKey => xxx(填入取得的 AppsFlyer Dev Key)
 AppleAppID => xxx(填入貴方的 Apple App ID，應為一串數 )          
-
-
 AFDeviceTrackingDisabled => No(是否取消追蹤功能，若介接方不想使用
 AppsFlyer 請設為 Yes，建議且預設為 No 意即開啟追蹤)
 AFCurrencyCode => TWD(貨幣代碼，預設為 TWD，代碼請參考這裡。這邊要特別注意 若之後的 trackEvent 有帶 af_currency(AFEventParamCurrency)此參數，則此事件會以 af_currency 為主)
