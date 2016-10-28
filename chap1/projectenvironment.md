@@ -69,4 +69,39 @@ UIRequiresFullScreen => Yes
 ```
 
 
-         
+
+####2.5 將 SDK 匯入專案
+
+將 iSGame-iOS-SDK.zip 裡的 6 個資料夾加進專案《frameworks》目錄裡或任 意位置再新增專案裡 Targets→Build Settings 中的 Search Paths 之「Framework Search Paths」。<br>
+
+1. `《ISGameSDK.bundle》`
+2. `《ISGameSDK.framework》`
+3. `《FBSDKCoreKit.framework》` 
+4. `《FBSDKLoginKit.framework》` 
+5. `《FBSDKShareKit.framework》` 
+6. `《AppsFlyerLib.framework》`
+
+
+
+####2.6 添加所需 bundle 與 frameworks
+專案裡選擇 Targets→Build Phases，在 Copy Bundle Resources 引入 《ISGameSDK.bundle》，在 Link Binary With Libraries 引入以下 19 個 frameworks，除 Adsupport.framework 為 Optional 其餘皆為 Required。
+
+01. `《ISGameSDK.framework》`
+02. `《FBSDKCoreKit.framework》` 
+03. `《FBSDKLoginKit.framework》` 
+04. `《FBSDKShareKit.framework》` 
+05. `《AppsFlyerLib.framework》` 
+06. Adsupport.framework
+07. iAd.framework
+08. Accounts.framework
+09. AddressBook.framework
+10. AssetsLibrary.framework
+11. CoreGraphics.framework
+12. CoreLocation.framework
+13. CoreMotion.framework
+14. CoreText.framework
+15. Foundation.framework
+16. MediaPlayer.framework
+17. Security.framework
+18. SystemConfiguration.framework 
+19. UIKit.framework
