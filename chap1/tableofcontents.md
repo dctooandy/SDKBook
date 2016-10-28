@@ -1,7 +1,7 @@
 #目錄
 
 
-[1.文件說明](README.md)
+[1.文件說明](chap1/description.md)
 
 >1.1 iSGame SDK 功能...<br>
 >1.2 iSGame SDK 標準版/輕量版功能摘要 ...
