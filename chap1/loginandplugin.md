@@ -30,6 +30,8 @@
 ####3.2.2 
 >編輯 AppDelegate.m 檔，實作`<UIApplicationDelegate>`協定。
 
+####(*有關`<UIApplicationDelegate>`協定功能的說明，請參考 [iOS 開發者文庫](https://developer.apple.com/reference/uikit/uiapplicationdelegate)。)
+
 <pre>
 -(BOOL) application:(UIApplication *) application 
         didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -110,4 +112,90 @@ didFailToRegisterForRemoteNotificationsWithError:(NSError *) error
 }
 </pre>
 
-####(*有關`<UIApplicationDelegate>`協定功能的說明，請參考 [iOS 開發者文庫](https://developer.apple.com/reference/uikit/uiapplicationdelegate)。)
+
+####3.2.3 
+>實作`<IsvDelegate>`協定並產生登入頁。<br>
+>iSGameSDK 初始後
+
+<pre>
+@required
+- (void) initialCallback
+{
+    // 請依需求登出，尤其要提醒未綁定玩家，登出會造成資料遺失
+    [[LoginView sharedApplication] startLogout];
+    // 設定登入後取得的 relogin key，第一次登入請傳空值
+    [[LoginView sharedApplication] setLoginKey:@"xxx"];
+    // 產生登入頁面方法
+    [[LoginView sharedApplication] startLogin];
+}
+</pre>
+
+>接收 iSGameSDK 登入成功後回傳的授權碼(code)
+
+<pre>
+@required
+- (void) loginComplete:(NSString *) code
+- {
+    // 將 code 傳送到遊戲伺服器，並由遊戲伺服器去拿回 uid、relogin key 等
+    // 請參考 3.4 iSGame OAuth 伺服器返回 Game Server 資料
+    // 儲 介接方使用者資訊
+    //{
+    // iSGameID:玩家平台 UID，若無或空值則預設為空值並 Console 提醒,
+    // accountID:玩家遊戲帳號，若無或空值則預設為空值,
+    // serverID:玩家遊戲伺服器 ID，若無或空值則預設為 0,
+    // nickname:玩家暱稱，若無或空值則預設為空值
+    //}
+    [[LoginView sharedApplication] SaveGameInfo:NSDictionary];
+    // 請於第一次登入(非 relogin)時，並確定已執行 SaveGameInfo 後執行下列
+    [[LoginView sharedApplication] SendAFTrackEvent:@"af_login" 
+                                             values:空 NSDictionary];
+}
+</pre>
+
+>接收帳號綁定結果(YES 或 NO)
+
+<pre>
+@optional
+-(void) bindComplete:(BOOL) isSuccess {}
+</pre>
+
+>完整取得 FB 使用者基本資訊後的處理者
+
+<pre>- (void) FB_getUserInfoComplete:(NSDictionary*) FBUserInfoList
+{
+    // valid:成功與否
+    // msgid:回傳之訊息編號
+    // msg:回傳之訊息內容
+    // info:回傳之基本資訊，為 Facebook 回傳的 JSON 資訊，包含 id,
+    // name, picture, first_name, last_name, gender, locale, link,
+    // updated_time等等.
+    // 若某筆資訊取得失敗，其對應的 info 為空值
+}
+</pre>
+
+>完整取得 FB 使用者名單後的處理者
+
+<pre>
+- (void) FB_getAuthFndListComplete:(NSDictionary *) FBAuthFndList
+{
+    // isguid:使用者的 iSGame uid
+    // fb_id:使用者的 FB id。若使用者使用快登或 G+登入則回傳 not authorize
+    // data:已授權的好友 id, name, pictureUrl 
+    //      或未授權的好友 inviteToken, name, pictureUrl。
+    //      若無好友則回傳空 NSDictionary
+    // event:執行取得 FB 使用者名單的函式名
+}
+</pre>
+
+>FB 分享完成後的處理者
+
+
+<pre>
+- (void) FB_sharingComplete:(NSDictionary *) FBRequestList
+{
+    // valid:成功與否
+    // msg:失敗或取消的訊息。若成功則回傳空值
+    // data:被邀請者的 FB id。若無則回傳空陣列
+    // event:執行分享的函式名
+}
+</pre>
