@@ -198,3 +198,23 @@ didFailToRegisterForRemoteNotificationsWithError:(NSError *) error
     // event:執行分享的函式名
 }
 </pre>
+
+###3.3 與 iSGame OAuth 伺服器介接方法
+
+####3.3.1 接口位址
+>https://oauth.is520.com/token.html
+
+####3.3.2 接口說明
+|接口|說明|
+|--|--|
+|接口協議|HTTP POST|
+|返回格式|JSON|
+
+####3.3.3 入口參數
+|參數|類型|最大位數|說明|
+|--|--|--|--|
+|client_id|bigint|20|傳入於 2.開發環境準備取得的 client_id|
+|client_secret|char|20||
+|redirect_uri|varhcar|255||
+|code|char|40||
+|grant_type|char|||
