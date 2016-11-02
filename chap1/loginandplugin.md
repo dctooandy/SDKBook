@@ -22,15 +22,12 @@
 ***
 
 ###3.2 與 SDK 介接方法
-####3.2.1 
->在需要 SDK 功能的檔案添加 iSGameSDK。<br>
-
+####3.2.1 在需要 SDK 功能的檔案添加 iSGameSDK。
 `#import <iSGameSDK/iSGameSDK.h>`
 
-####3.2.2 
->編輯 AppDelegate.m 檔，實作`<UIApplicationDelegate>`協定。
+####3.2.2 編輯 AppDelegate.m 檔，實作`<UIApplicationDelegate>`協定。
 
-####(*有關`<UIApplicationDelegate>`協定功能的說明，請參考 [iOS 開發者文庫](https://developer.apple.com/reference/uikit/uiapplicationdelegate)。)
+#####(*有關`<UIApplicationDelegate>`協定功能的說明，請參考 [iOS 開發者文庫](https://developer.apple.com/reference/uikit/uiapplicationdelegate)。)
 
 <pre>
 -(BOOL) application:(UIApplication *) application 
@@ -113,8 +110,7 @@ didFailToRegisterForRemoteNotificationsWithError:(NSError *) error
 </pre>
 
 
-####3.2.3 
->實作`<IsvDelegate>`協定並產生登入頁。<br>
+####3.2.3 實作`<IsvDelegate>`協定並產生登入頁。<br>
 >iSGameSDK 初始後
 
 <pre>
@@ -161,7 +157,9 @@ didFailToRegisterForRemoteNotificationsWithError:(NSError *) error
 
 >完整取得 FB 使用者基本資訊後的處理者
 
-<pre>- (void) FB_getUserInfoComplete:(NSDictionary*) FBUserInfoList
+<pre>
+@optional
+- (void) FB_getUserInfoComplete:(NSDictionary*) FBUserInfoList
 {
     // valid:成功與否
     // msgid:回傳之訊息編號
@@ -176,6 +174,7 @@ didFailToRegisterForRemoteNotificationsWithError:(NSError *) error
 >完整取得 FB 使用者名單後的處理者
 
 <pre>
+@optional
 - (void) FB_getAuthFndListComplete:(NSDictionary *) FBAuthFndList
 {
     // isguid:使用者的 iSGame uid
@@ -189,8 +188,8 @@ didFailToRegisterForRemoteNotificationsWithError:(NSError *) error
 
 >FB 分享完成後的處理者
 
-
 <pre>
+@optional
 - (void) FB_sharingComplete:(NSDictionary *) FBRequestList
 {
     // valid:成功與否
