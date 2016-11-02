@@ -31,18 +31,19 @@
 >編輯 AppDelegate.m 檔，實作`<UIApplicationDelegate>`協定。
 
 -(BOOL) application:(UIApplication *) application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
- {<br>
+ <br>{<br>
 // 設定使用 IsvDelegete 的目標<br>
 [[LoginView sharedApplication] setDelegate:self];<br>
 // 設定 SDK 畫面以橫向(YES)或直向(NO)顯示;預設為 YES<br>
 [[LoginView sharedApplication] setIsLandscape:YES];<br>
 // 設定 SDK 介面以繁體中文(zh_TW)或英文(en)顯示;預設為系統語系(非中則英)<br> 
-[[LoginView sharedApplication] setLocalize:@"zh_TW"];
-//設定iSGameclient_id和redirect_uri
-[[LoginView sharedApplication] init:@"xxx" redirectUri:@"xxx"];
-// 提供給FB與AF SDK使用
+[[LoginView sharedApplication] setLocalize:@"zh_TW"];<br>
+//設定iSGameclient_id和redirect_uri<br>
+[[LoginView sharedApplication] init:@"xxx" redirectUri:@"xxx"];<br>
+// 提供給FB與AF SDK使用<br>
 return [[LoginView sharedApplication] application:application
-                    didFinishLaunchingWithOptions:launchOptions];
+                    didFinishLaunchingWithOptions:launchOptions];<br>
  }
  
+<a href="right.htm" target="right">回首頁</a>
 
