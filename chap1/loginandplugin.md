@@ -47,8 +47,10 @@
                     didFinishLaunchingWithOptions:launchOptions];
 }
 </pre>
+
+>接收來自 Google 或 Facebook 回傳的登入資訊，並返回給 iSGameSDk 處理
+ 
 <pre>
-// 接收來自 Google 或 Facebook 回傳的登入資訊，並返回給 iSGameSDk 處理 
 - (BOOL) application:(UIApplication *) application
              openURL:(NSURL *) url
    sourceApplication:(NSString *) sourceApplication
@@ -60,3 +62,4 @@
                                          annotation:annotation];
 }
 </pre>
+
