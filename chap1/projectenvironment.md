@@ -4,25 +4,25 @@ iSGame SDK 僅支援 iOS 7.0 以上韌體，貴方請確保測試環境不低於
 
 ####2.2 您需要給 iSGame 平台的遊戲相關資料
 >貴方應把以下資料交給您聯繫的 iSGame 平台窗口。 <br>
->>1 Bundle Identifier (Bundle ID)<br>
->>2 推播用憑證 (APNs Certificates)<br>
->>3 FB 客製邀請動作 (send / askfor)<br>
->>4 FB 客製邀請物品 (item)<br>
->>5 FB 自動分享審核資料 (publish_actions) ○6 Apple App ID (應為一串數字)<br>
+>>1. Bundle Identifier (Bundle ID)<br>
+>>2. 推播用憑證 (APNs Certificates)<br>
+>>3. FB 客製邀請動作 (send / askfor)<br>
+>>4. FB 客製邀請物品 (item)<br>
+>>5. FB 自動分享審核資料 (publish_actions) ○6 Apple App ID (應為一串數字)<br>
 >>請參考 13.申請表單。
 
 ####2.3 iSGame 平台必須給您的遊戲介接資料
 >iSGame 平台窗口確認收到 2.2 的資料後，將回覆貴方以下資料。<br>
->>1 iSGame-iOS-SDK.zip<br>
->>2 Facebook app_id<br>
->>3 Facebook scheme<br>
->>4 Facebook object ID<br>
->>5 Facebook Applink<br>
->>6 Google Client ID<br>
->>7 iSGame client_id<br>
->>8 iSGame client_secret <br>
->>9 iSGame redirect_uri <br>
->>10 AppsFlyer Dev Key <br>
+>>1. iSGame-iOS-SDK.zip<br>
+>>2. Facebook app_id<br>
+>>3. Facebook scheme<br>
+>>4. Facebook object ID<br>
+>>5. Facebook Applink<br>
+>>6. Google Client ID<br>
+>>7. iSGame client_id<br>
+>>8. iSGame client_secret <br>
+>>9. iSGame redirect_uri <br>
+>>10. AppsFlyer Dev Key <br>
 >>請參考 13.申請表單。
 
 ####2.4 在 Xcode 設定遊戲專案環境
