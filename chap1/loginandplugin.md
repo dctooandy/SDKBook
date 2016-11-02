@@ -88,3 +88,24 @@ continueUserActivity:(NSUserActivity *) userActivity
 }
 </pre>
 
+>向 iSGameSDK 註冊推播用裝置代碼
+
+<pre>
+-(void) application:(UIApplication *) application
+didRegisterForRemoteNotificationsWithDeviceToken:(NSData *) deviceToken
+{
+    [[LoginView sharedApplication] registDevice:deviceToken];
+    [super application:application
+    didRegisterForRemoteNotificationsWithDeviceToken:deviceToken];
+}
+</pre>
+
+>(option)推播裝置代碼取得失敗錯誤處理
+
+<pre>
+- (void) application:(UIApplication *) application
+didFailToRegisterForRemoteNotificationsWithError:(NSError *) error 
+{
+    [super application:application didFailToRegisterForRemoteNotificationsWithError:error];
+}
+</pre>
