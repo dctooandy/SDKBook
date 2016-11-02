@@ -63,3 +63,28 @@
 }
 </pre>
 
+>當選擇 Facebook 登入並從 Facebook App 返回應用裝置時，須告知 iSGameSDK
+
+<pre>
+- (void) applicationDidBecomeActive:(UIApplication *) application 
+{
+    [[LoginView sharedApplication] handleActiveSession];
+    [[LoginView sharedApplication]
+                          applicationDidBecomeActive:application];
+    [super applicationDidBecomeActive:application];
+}
+</pre>
+
+>提供給 AF SDK 使用
+
+<pre>
+- (BOOL) application:(UIApplication *) application
+continueUserActivity:(NSUserActivity *) userActivity
+  restorationHandler:(void(^)(NSArray * __nullable restorableObjects))restorationHandler
+{
+  return [[LoginView sharedApplication] application:application
+                               continueUserActivity:userActivity
+                                 restorationHandler:restorationHandler];
+}
+</pre>
+
