@@ -3,7 +3,7 @@
 ###附錄 A. Message
 | msgid | msg | 備註 |
 | :--: | -- | -- |
-| 0 | The request is missing a required parameter, includes an invalid parameter value, includes a parameter more than once, or is otherwise malformed. Check the "%s" parameter | 傳遞參數短少 |
+| 0 | The request is missing a required parameter, includes<br> an invalid parameter value, includes a parameter more<br> than once, or is otherwise malformed. Check the "%s"<br> parameter | 傳遞參數短少 |
 | 1 | The client is not authorized to request an access token using this method | 此 client_id 無法使用此方式 進行驗證 |
 | 2 | 1:4 | 2:4 |
 | 3 | 1:5 | 2:5 |
