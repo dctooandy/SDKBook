@@ -61,3 +61,33 @@
 <td>id</td>
 </tr>
 </table>
+
+####10.2.2 程式實作
+執行取得深層資料範例
+>// 拿到 AppsFlyer 的 Install Conversion Data<br>
+>id data = [[LoginView sharedApplication] GetAFConversionData];
+
+###10.3 設定使用者郵件(SetAFUserEmails)流程說明
+“SetAFUserEmails”(設定使用者郵件)可以設定 AppsFlyer 使用者郵件。
+
+####10.3.1 參數定義
+|功能名稱|SetAFUserEmails|
+|:--:|--|
+|功能描述|設定 AppsFlyer 使用者郵件|
+|回傳格式|void|
+
+<table>
+<tr>
+<td rowspan="2">response<br>(回傳結構)</td>
+<td>參數</td>
+<td>說明</td>
+<td>是否<br>必要</td>
+<td>類型</td>
+</tr>
+<tr>
+<td>userEmails</td>
+<td>AppsFlyer 用戶信箱</td>
+<td>Y</td>
+<td>NSString<br>NSArray</td>
+</tr>
+</table>
