@@ -197,19 +197,19 @@
 </tr>
 <tr>
 <td>fb_id</td>
-<td>篩選掉無需邀請好友的<br>inviteToken，如傳 nil、空陣列、陣列<br>元素為空字串，則忽略此篩選條件</td>
+<td>使用者的 FB id。若使用者使用快登或<br>Google+登入則回傳“not authorize”</td>
 <td>根</td>
 <td>NSString</td>
 </tr>
 <tr>
 <td>data</td>
-<td使用者的 FB id。若使用者使用快登或<br>inviteToken，如傳 nil、空陣列、陣列<br>元素為空字串，則忽略此篩選條件</td>
+<td>未 授 權 好 友 的 inviteToken array,<br>name array, pictureUrl array，若無好<br>友則回傳空 NSDictionary</td>
 <td>根</td>
 <td>NSDictionary</td>
 </tr>
 <tr>
 <td>event</td>
-<td>篩選掉無需邀請好友的<br>inviteToken，如傳 nil、空陣列、陣列<br>元素為空字串，則忽略此篩選條件</td>
+<td>執行取得名單的函式名(如此功能名<br>稱)</td>
 <td>根</td>
 <td>NSString</td>
 </tr>
