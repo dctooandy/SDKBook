@@ -222,5 +222,29 @@ didFailToRegisterForRemoteNotificationsWithError:(NSError *) error
 ***
 ###3.4 iSGame OAuth 伺服器返回 Game Server 資料
 
-<hr size="5" align="center" noshade width="30%" color="0000ff">
-<p align='right'>3.4.1 登入成功:</p>
+####3.4.1登入成功:
+
+|參數|說明|
+|--|--|
+|valid|驗證結果"true"|
+|access_token|玩家存取認證代碼，切勿存至用戶端|
+|refresh_token|更新 access_token 時使用|
+|uid|iSGame 平台 uid|
+|key|登入金鑰(relogin key)，第二次登入驗證使用。請儲存至用戶端|
+|user_type|使用者登入類型(1 : 帳號登入、2 : 快速登入)|
+
+
+返回資料範例:<br>
+{<br>
+"valid":"true",<br> "access_token":"00UtWcWm00UtWcWm00UtWcWm00UtWcWm00UtWcWm",<br> "refresh_token":"3eRqr******************************nx8JY",<br> "uid":"290******137",<br>
+"key":"oooooooooooooooo", <br>
+"user_type":"1"<br>
+}
+
+####3.4.2 登入失敗:
+
+|參數|說明|
+|--|--|
+|valid|驗證結果"false"|
+|msgId|錯誤訊息 id，請參考附錄 A. Message|
+|msg|錯誤訊息，請參考附錄 A. Message|
