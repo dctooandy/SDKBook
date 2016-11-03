@@ -27,10 +27,10 @@
 
 <table>
 <tr>
-<td rowspan="2">request<br>(傳入參數)</td>
+<td rowspan="2">response<br>(回傳結構)</td>
 <td>參數</td>
 <td>說明</td>
-<td>是否<br> 必要</td>
+<td>繼承<br>欄位</td>
 <td>類型</td>
 </tr>
 <tr>
