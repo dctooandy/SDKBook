@@ -7,4 +7,7 @@
 <font color="red">※請於第一次登入(非 relogin)時，並確定已執行 SaveGameInfo 後執行 af_login 的 AppsFlyer event。</font>
 
 ####10.1.1 參數定義
-
+|功能名稱|SendAFTrackEvent|
+|:--:|--|
+|功能描述|追蹤 AppsFlyer 的 in-app events|
+|回傳格式|void|
