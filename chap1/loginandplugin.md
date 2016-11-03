@@ -31,15 +31,17 @@
 #####(*有關`<UIApplicationDelegate>`協定功能的說明，請參考 [iOS 開發者文庫](https://developer.apple.com/reference/uikit/uiapplicationdelegate)。)
 
 
+<span id = "setDelegate"></span>
 
-```objecttivec
+<span id = "setIsLandscape"></span>
+```objectivec
 -(BOOL) application:(UIApplication *) application 
         didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // 設定使用 IsvDelegete 的目標
-    <span id = "setDelegate">[[LoginView sharedApplication] setDelegate:self];</span>
+    [[LoginView sharedApplication] setDelegate:self];
     // 設定 SDK 畫面以橫向(YES)或直向(NO)顯示;預設為 YES
-    <span id = "setIsLandscape">[[LoginView sharedApplication] setIsLandscape:YES];</span>
+    [[LoginView sharedApplication] setIsLandscape:YES];
     // 設定 SDK 介面以繁體中文(zh_TW)或英文(en)顯示;預設為系統語系(非中則英)
     [[LoginView sharedApplication] setLocalize:@"zh_TW"];
     //設定iSGameclient_id和redirect_uri
@@ -52,7 +54,7 @@
 
 >接收來自 Google 或 Facebook 回傳的登入資訊，並返回給 iSGameSDk 處理
  
-<pre>
+```objectivec
 - (BOOL) application:(UIApplication *) application
              openURL:(NSURL *) url
    sourceApplication:(NSString *) sourceApplication
@@ -63,11 +65,11 @@
                                   sourceApplication:sourceApplication
                                          annotation:annotation];
 }
-</pre>
+```
 
 >當選擇 Facebook 登入並從 Facebook App 返回應用裝置時，須告知 iSGameSDK
 
-<pre>
+```objectivec
 - (void) applicationDidBecomeActive:(UIApplication *) application 
 {
     [[LoginView sharedApplication] handleActiveSession];
@@ -75,11 +77,11 @@
                           applicationDidBecomeActive:application];
     [super applicationDidBecomeActive:application];
 }
-</pre>
+```
 
 >提供給 AF SDK 使用
 
-<pre>
+```objectivec
 - (BOOL) application:(UIApplication *) application
 continueUserActivity:(NSUserActivity *) userActivity
   restorationHandler:(void(^)(NSArray * __nullable restorableObjects))restorationHandler
@@ -88,11 +90,11 @@ continueUserActivity:(NSUserActivity *) userActivity
                                continueUserActivity:userActivity
                                  restorationHandler:restorationHandler];
 }
-</pre>
+```
 
 >向 iSGameSDK 註冊推播用裝置代碼
 
-<pre>
+```objectivec
 -(void) application:(UIApplication *) application
 didRegisterForRemoteNotificationsWithDeviceToken:(NSData *) deviceToken
 {
@@ -100,23 +102,23 @@ didRegisterForRemoteNotificationsWithDeviceToken:(NSData *) deviceToken
     [super application:application
     didRegisterForRemoteNotificationsWithDeviceToken:deviceToken];
 }
-</pre>
+```
 
 >(option)推播裝置代碼取得失敗錯誤處理
 
-<pre>
+```objectivec
 - (void) application:(UIApplication *) application
 didFailToRegisterForRemoteNotificationsWithError:(NSError *) error 
 {
     [super application:application didFailToRegisterForRemoteNotificationsWithError:error];
 }
-</pre>
+```
 
 
 ####3.2.3 實作`<IsvDelegate>`協定並產生登入頁。<br>
 >iSGameSDK 初始後
 
-<pre>
+```objectivec
 @required
 - (void) initialCallback
 {
@@ -127,11 +129,11 @@ didFailToRegisterForRemoteNotificationsWithError:(NSError *) error
     // 產生登入頁面方法
     [[LoginView sharedApplication] startLogin];
 }
-</pre>
+```
 
 >接收 iSGameSDK 登入成功後回傳的授權碼(code)
 
-<pre>
+```objectivec
 @required
 - (void) loginComplete:(NSString *) code
 - {
@@ -149,18 +151,18 @@ didFailToRegisterForRemoteNotificationsWithError:(NSError *) error
     [[LoginView sharedApplication] SendAFTrackEvent:@"af_login" 
                                              values:空 NSDictionary];
 }
-</pre>
+```
 
 >接收帳號綁定結果(YES 或 NO)
 
-<pre>
+```objectivec
 @optional
 -(void) bindComplete:(BOOL) isSuccess {}
-</pre>
+```
 
 >完整取得 FB 使用者基本資訊後的處理者
 
-<pre>
+```objectivec
 @optional
 - (void) FB_getUserInfoComplete:(NSDictionary*) FBUserInfoList
 {
@@ -172,11 +174,11 @@ didFailToRegisterForRemoteNotificationsWithError:(NSError *) error
     // updated_time等等.
     // 若某筆資訊取得失敗，其對應的 info 為空值
 }
-</pre>
+```
 
 >完整取得 FB 使用者名單後的處理者
 
-<pre>
+```objectivec
 @optional
 - (void) FB_getAuthFndListComplete:(NSDictionary *) FBAuthFndList
 {
@@ -187,11 +189,11 @@ didFailToRegisterForRemoteNotificationsWithError:(NSError *) error
     //      若無好友則回傳空 NSDictionary
     // event:執行取得 FB 使用者名單的函式名
 }
-</pre>
+```
 
 >FB 分享完成後的處理者
 
-<pre>
+```objectivec
 @optional
 - (void) FB_sharingComplete:(NSDictionary *) FBRequestList
 {
@@ -200,7 +202,7 @@ didFailToRegisterForRemoteNotificationsWithError:(NSError *) error
     // data:被邀請者的 FB id。若無則回傳空陣列
     // event:執行分享的函式名
 }
-</pre>
+```
 ***
 ###3.3 與 iSGame OAuth 伺服器介接方法
 
