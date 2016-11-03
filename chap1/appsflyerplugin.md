@@ -22,13 +22,13 @@
 </tr>
 <tr>
 <td>name</td>
-<td>自定義或 AppsFlyer 提供的 event<br>name，請參考[這裡](https://support.appsflyer.com/hc/en-us/articles/207577713)</td>
+<td>自定義或 AppsFlyer 提供的 event<br>name，請參考<a href="https://support.appsflyer.com/hc/en-us/articles/207577713">這裡</a></td>
 <td>Y</td>
 <td>NSString</td>
 </tr>
 <tr>
 <td>values</td>
-<td>自定義或 AppsFlyer 提供的 event<br>values，請參考[這裡](https://support.appsflyer.com/hc/en-us/articles/207577713)</td>
+<td>自定義或 AppsFlyer 提供的 event<br>values，請參考<a href="https://support.appsflyer.com/hc/en-us/articles/207577713"這裡</a></td>
 <td>Y</td>
 <td>NSDictionary</td>
 </tr>
