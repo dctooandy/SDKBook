@@ -198,7 +198,7 @@ didFailToRegisterForRemoteNotificationsWithError:(NSError *) error
     // event:執行分享的函式名
 }
 </pre>
-
+***
 ###3.3 與 iSGame OAuth 伺服器介接方法
 
 ####3.3.1 接口位址
@@ -213,8 +213,12 @@ didFailToRegisterForRemoteNotificationsWithError:(NSError *) error
 ####3.3.3 入口參數
 |參數|類型|最大位數|說明|
 |--|--|--|--|
-|client_id|bigint|20|傳入於 2.開發環境準備取得的 client_id|
-|client_secret|char|20||
-|redirect_uri|varhcar|255||
-|code|char|40||
-|grant_type|char|||
+|client_id|bigint|20|傳入於 [2.開發環境準備](../chap1/projectenvironment.md)取得的 client_id|
+|client_secret|char|20|傳入於 [2.開發環境準備](../chap1/projectenvironment.md)取得的client_secret|
+|redirect_uri|varhcar|255|傳入於 [2.開發環境準備](../chap1/projectenvironment.md)取得的redirect_uri|
+|code|char|40|傳入授權碼|
+|grant_type|char||請傳入"authorization_code"|
+
+***
+###3.4 iSGame OAuth 伺服器返回 Game Server 資料
+3.4.1 登入成功:
