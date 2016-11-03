@@ -29,10 +29,12 @@
 <tr>
 <td>Facebook SDK</td>
 <td>4.6.0 (Graph API 2.4)</td>
-<td rowspan="2">此為建構 iSGame SDK 時的版本。貴方 實際導入時，選擇相容的版本導入即可。</td>
+<td rowspan="2">此為建構 iSGame SDK 時的版本。貴方<br>實際導入時，選擇相容的版本導入即可。</td>
 </tr>
 <tr>
 <td>AppsFlyer SDK</td>
 <td>3.3.2</td>
 </tr>
 </table>
+
+###附錄 C. Reference
