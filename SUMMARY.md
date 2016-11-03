@@ -6,5 +6,5 @@
    * [文件說明](chap1/description.md)
    * [開發環境準備](chap1/projectenvironment.md)
    * [登入介接](chap1/loginandplugin.md)
-   * [accountplugin](chap1/accountplugin.md)
+   * [帳號綁定介接](chap1/accountplugin.md)
 
