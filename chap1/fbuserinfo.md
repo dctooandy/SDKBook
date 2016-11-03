@@ -43,7 +43,7 @@
 <td>msgid</td>
 <td>回傳之訊息編號，<br>請參考附錄 A. Message</td>
 <td>根</td>
-<td>NSString<br>NSArray</td>
+<td>[NSNumber by Integer]<br>NSArray</td>
 </tr>
 <tr>
 <td>msg</td>
@@ -55,6 +55,6 @@
 <td>info</td>
 <td>回傳之基本資訊，為 Facebook 回傳的<br>JSON 資訊，通常轉成 NSDictionary，包<br>含 id 、 name 、 picture 、 first_name 、<br>last_name 、 gender 、 locale 、 link 、<br>updated_time，若某筆資訊取得失敗，其<br>對應的 info 為空字串</td>
 <td>根</td>
-<td>NSString<br>NSArray</td>
+<td>id<br>NSArray</td>
 </tr>
 </table>
