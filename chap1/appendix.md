@@ -37,7 +37,7 @@
 </tr>
 </table>
 
-###附錄 C. [Reference](loginandplugin.md#jump)
+###附錄 C. [Reference](loginandplugin.md#delegate)
 
 <table>
 <tr>
@@ -46,9 +46,9 @@
 </tr>
 <td colspan="2" align="center">設定</td>
 <tr>
-<td> - (void)
+<td> <a href="loginandplugin.md#delegate">- (void)
 setDelegate:
-NSObject &lt;IsvDelegate&gt; </td>
+NSObject &lt;IsvDelegate&gt;</a> </td>
 <td>設定使用 IsvDelegete 的目標</td>
 </tr>
 <tr>
