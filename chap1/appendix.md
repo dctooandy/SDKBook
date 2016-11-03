@@ -1,4 +1,4 @@
-# 附錄
+# <h1 id="dele">附錄</h1>
 
 ###附錄 A. Message
 | msgid | msg | 備註 |
@@ -18,7 +18,7 @@
 | 999 | Else message | 發生不可預期的錯誤，導致<br>出現非以上訊息時 |
 
 
-###附錄 B. Third-party <h2 id="dele">SDK</h2>
+###附錄 B. Third-party SDK
 
 <table>
 <tr>
