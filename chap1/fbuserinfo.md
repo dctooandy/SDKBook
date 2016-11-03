@@ -11,11 +11,13 @@
 
 <table border="1">
 <tr>
-<td rowspan="2">這是第一個欄位</td>
+<td rowspan="2">request(傳入參數)</td>
 <td>這裡是第二個欄位第一行</td>
+<td>這裡是第三個欄位第一行</td>
 </tr>
 <tr>
 <td>這裡是第二個欄位第二行</td>
+<td>這裡是第三個欄位第二行</td>
 </tr>
 </table>
 
