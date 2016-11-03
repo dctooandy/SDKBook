@@ -15,5 +15,4 @@
 | 9 | The provided authorization grant is invalid, expired,<br> revoked, does not match the redirection URI used in<br> the authorization request, or was issued to another<br> client. Check the "%s" parameter | 授權請求無效/過期/被撤銷 |
 | 200 | Success | 成功 |
 | 998 | FB message | FB 相關訊息 |
-| 999 | Else message | 發生不可預期的錯誤，導致
-出現非以上訊息時 |
+| 999 | Else message | 發生不可預期的錯誤，導致出現非以上訊息時 |
