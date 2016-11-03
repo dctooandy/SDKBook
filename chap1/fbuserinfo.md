@@ -9,15 +9,13 @@
 |功能描述|取得 FB 使用者基本資訊|
 |回傳格式|NSDictionary(需實作 FB_getUserInfoComplete)|
 
-<table >
-
-  <tr>
-        <td colspan=3>内容</td>
-<td>1</td>
-<tr>
-<td>2</td>    
-<tr>
-<td>2</td>
-
+<table border="1">
+　<tr>
+　<td colspan="2">這裡是第一行</td>
+　</tr>
+　<tr>
+　<td>這裡是第二行的第一個欄位</td>
+　<td>這裡是第二行的第二個欄位</td>
+　</tr>
 </table>
 
