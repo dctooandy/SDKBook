@@ -11,3 +11,25 @@
 |:--:|--|
 |功能描述|追蹤 AppsFlyer 的 in-app events|
 |回傳格式|void|
+
+<table>
+<tr>
+<td rowspan="3">request<br>(傳入參數)</td>
+<td>參數</td>
+<td>說明</td>
+<td>是否<br>必要</td>
+<td>類型</td>
+</tr>
+<tr>
+<td>name</td>
+<td>自定義或 AppsFlyer 提供的 event<br>name，請參考這裡</td>
+<td>Y</td>
+<td>NSString</td>
+</tr>
+<tr>
+<td>values</td>
+<td>自定義或 AppsFlyer 提供的 event<br>values，請參考這裡</td>
+<td>Y</td>
+<td>NSDictionary</td>
+</tr>
+</table>
