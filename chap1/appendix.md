@@ -56,9 +56,9 @@ setIsLandscape:BOOL </a></td>
 <td>設定 SDK 畫面以橫向(YES)或直向(NO)顯示;預設為 YES</td>
 </tr>
 <tr>
-<td> - (void)
+<td> <a href="loginandplugin.md#setLocalize">-- (void)
 setLocalize:
-NSString </td>
+NSString</a> </td>
 <td>設定 SDK 介面以繁體中文(zh_TW)或英文(en)顯示;預設為 系統語系(非中則英)</td>
 </tr>
 <tr>
