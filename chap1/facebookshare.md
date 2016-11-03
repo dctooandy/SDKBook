@@ -203,7 +203,7 @@ sendMessage:@"xxx" autoSelect:NO];
 </tr>
 <tr>
 <td>message</td>
-<td>發送邀請時所顯示的訊息文字<br>(PC 用戶才看得到)</td>
+<td>寄送禮物訊息所帶的文字內容<br>(PC 用戶才看得到)</td>
 <td>Y</td>
 <td>NSString</td>
 </tr>
@@ -270,7 +270,7 @@ actionType:@"send" sendMessage:@"xxx"];
 
 <table>
 <tr>
-<td rowspan="5">request<br>(傳入參數)</td>
+<td rowspan="6">request<br>(傳入參數)</td>
 <td>參數</td>
 <td>說明</td>
 <td>是否<br>必要</td>
@@ -283,20 +283,26 @@ actionType:@"send" sendMessage:@"xxx"];
 <td>NSString</td>
 </tr>
 <tr>
-<td>objectID</td>
-<td>object ID，由 iSGame 提供</td>
+<td>link</td>
+<td>Applink，由 iSGame 提供</td>
 <td>Y</td>
 <td>NSString</td>
 </tr>
 <tr>
-<td>actionType</td>
-<td>只支持”send”和”askfor”</td>
+<td>title</td>
+<td>分享貼文的標題</td>
+<td>Y</td>
+<td>NSString</td>
+</tr>
+<tr>
+<td>picUrl</td>
+<td>分享顯示圖片的 web url</td>
 <td>Y</td>
 <td>NSString</td>
 </tr>
 <tr>
 <td>message</td>
-<td>發送邀請時所顯示的訊息文字<br>(PC 用戶才看得到)</td>
+<td>寄送禮物訊息所帶的文字內容<br>(PC 用戶才看得到)</td>
 <td>Y</td>
 <td>NSString</td>
 </tr>
