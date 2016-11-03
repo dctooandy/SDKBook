@@ -242,3 +242,18 @@ sendMessage:@"xxx" autoSelect:NO];
 <td>NSString</td>
 </tr>
 </table>
+
+####9.3.2 程式實作
+執行 Facebook 發送客製邀請範例
+>// 向 Facebook 好友發送客製邀請<br>
+>[[LoginView sharedApplication] FB_sendStory:@"xxx" objectID:@"xxx"
+actionType:@"send" sendMessage:@"xxx"];
+
+執行後回覆範例
+
+- 範例 1:<br>
+{<br>
+“valid”:1, <br>
+“msg”:“”, <br>
+“data”:[1458495727776393, 1458495727776394],<br> “event”:”FB_sendStory”<br>
+}
