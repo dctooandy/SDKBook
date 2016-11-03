@@ -37,7 +37,7 @@
 </tr>
 </table>
 
-###附錄 C. [Reference](#delegate)
+###附錄 C. [Reference](#dele)
 
 <table>
 <tr>
