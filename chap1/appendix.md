@@ -38,3 +38,17 @@
 </table>
 
 ###附錄 C. Reference
+
+<table>
+<tr>
+<td>名稱</td>
+<td>說明</td>
+</tr>
+<tr colspan="2">s</tr>
+<tr>
+<td>- (void)
+setDelegate:
+NSObject<IsvDelegate></td>
+<td>設定使用 IsvDelegete 的目標</td>
+</tr>
+</table>
