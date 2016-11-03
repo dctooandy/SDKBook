@@ -16,5 +16,5 @@
    * [訊息推播(APNS)](chap1/apns.md)
    * [登入屏蔽](chap1/blocklogin.md)
    * [申請表單](chap1/form.md)
-   * [appendix](chap1/appendix.md)
+   * [附錄](chap1/appendix.md)
 
