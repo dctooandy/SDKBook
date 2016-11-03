@@ -10,3 +10,18 @@
 | 4 | <font color="orange">FB 客製邀請物品<br>(item)</font> <br><font color="darkpink">optional</font> | 承 3，請填寫客製邀請使用的物品名<br>稱，與 3 可多組搭配，預設是英文，<br>可提供客製化翻譯(中文或其他語言) |  |
 | 5 | <font color="orange">FB 自動分享審核資料<br>(publish_actions)</font> <br><font color="darkpink">optional</font> | 若需使用 FB 自動分享功能，<br>需申請 FB publish_actions 權限，<br>請提供對應審核資料 |  |
 | 6 | <font color="orange">Apple App ID<br>(應為一串數字)</font> <br><font color="darkpink">optional</font> | 若需使用 AppsFlyer 分析功能，<br>請提供貴方上架的<br>Apple App ID |  ||
+
+
+###13.2 貴方應獲得資料項目
+| 序 | 名稱 | 說明 |
+| :--: | -- | -- |
+| 0:2 | 1:2 | 2:2 |
+| 0:3 | 1:3 | 2:3 |
+| 0:4 | 1:4 | 2:4 |
+| 0:5 | 1:5 | 2:5 |
+| 0:6 | 1:6 | 2:6 |
+| 0:7 | 1:7 | 2:7 |
+| 0:8 | 1:8 | 2:8 |
+| 0:9 | 1:9 | 2:9 |
+| 0:10 | 1:10 | 2:10 |
+| 0:11 | 1:11 | 2:11 |
