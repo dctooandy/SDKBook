@@ -38,3 +38,6 @@
 執行寄送追蹤事件範例
 >// 追蹤 AppsFlyer 的 in-app events<br>
 >[[LoginView sharedApplication] SendAFTrackEvent:@"xxx" values:NSDictionary];
+
+###10.2 取得深層資料(GetAFConversionData)流程說明
+“GetAFConversionData”(取得深層資料)可以拿到 AppsFlyer 的 Install Conversion Data。主要屬性值為「media_source」與「campaign」，其餘屬性 請參考[這裡](https://support.appsflyer.com/hc/en-us/articles/207032096-Accessing-AppsFlyer-Attribution-Conversion-Data-from-the-SDK-iOS-Deferred-Deeplinking-)。
