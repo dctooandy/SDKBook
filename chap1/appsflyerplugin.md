@@ -91,3 +91,8 @@
 <td>NSString<br>NSArray</td>
 </tr>
 </table>
+
+####10.3.2 程式實作
+執行設定 AppsFlyer 使用者郵件範例
+>// 設定 AppsFlyer 使用者郵件<br>
+>[[LoginView sharedApplication] SetAFUserEmails:NSArray];
