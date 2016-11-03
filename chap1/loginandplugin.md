@@ -39,6 +39,7 @@
 
 <span id = "sharedApplication"></span>
 
+<span id = "redirectUri"></span>
 ```objectivec
 -(BOOL) application:(UIApplication *) application 
         didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
