@@ -47,21 +47,27 @@
 <td>類型</td>
 </tr>
 <tr>
-<td>uid</td>
-<td>使用者的 iSGame 平台 id</td>
+<td>valid</td>
+<td>成功與否</td>
+<td>Y</td>
+<td>NSNumber</td>
+</tr>
+<tr>
+<td>msg</td>
+<td>失敗或取消的訊息。若成功則回傳空值</td>
 <td>Y</td>
 <td>NSString</td>
 </tr>
 <tr>
-<td>message</td>
-<td>發送邀請時所顯示的訊息文字<br>(PC 用戶才看得到)</td>
+<td>data</td>
+<td>被邀請者的 FB id。若無則回傳空陣列</td>
 <td>Y</td>
-<td>NSString</td>
+<td>NSArray</td>
 </tr>
 <tr>
-<td>autoSelect</td>
-<td>開啟/關閉自動選擇 FB 好友功能<br>*自動選擇僅會發送給尚未授權的朋友</td>
+<td>event</td>
+<td>執行分享的函式名(如此功能名稱)</td>
 <td>Y</td>
-<td>BOOL</td>
+<td>NSString</td>
 </tr>
 </table>
