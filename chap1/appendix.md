@@ -44,7 +44,7 @@
 <td>名稱</td>
 <td>說明</td>
 </tr>
-<tr colspan="2">s</tr>
+<td colspan="2">s</td>
 <tr>
 <td>- (void)
 setDelegate:
