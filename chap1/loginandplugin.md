@@ -28,7 +28,7 @@
 ####3.2.2 編輯 AppDelegate.m 檔，實作`<UIApplicationDelegate>`協定。
 
 #####(*有關`<UIApplicationDelegate>`協定功能的說明，請參考 [iOS 開發者文庫](https://developer.apple.com/reference/uikit/uiapplicationdelegate)。)
-<a name="dele">.</a>
+
 <pre>
 -(BOOL) application:(UIApplication *) application 
         didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
