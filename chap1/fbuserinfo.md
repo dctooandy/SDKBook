@@ -58,3 +58,27 @@
 <td>id<br>NSArray</td>
 </tr>
 </table>
+
+####8.1.2 程式實作
+執行取得 FB 使用者基本資訊範例
+
+>// 取得 FB 使用者基本資訊<br>
+>[[LoginView sharedApplication] FB_getUserInfo:NSArray];
+
+執行後回傳參數範例
+
+範例 :<br>
+{“valid”:[1, 0],<br>
+“msgid”:[200, 998],<br>
+“msg”:[Success, not authorize],<br>
+“info”:[{JSON}, “”]}
+
+###8.2 取得已授權好友名單(FB_getAuthFndList)流程說明
+“FB_getAuthFndList”(已授權好友名單撈取)可取得使用 Facebook 帳號登入
+的使用者 FB id，與其 FB 好友中已授權此 APP 的 id、name、pictureUrl。
+
+####8.2.1 參數定義
+|功能名稱|FB_getAuthFndList|
+|:--:|--|
+|功能描述|取得使用者 FB id 與已授權好友的 id、name、pictureUrl|
+|回傳格式|NSDictionary(需實作 FB_getAuthFndListComplete)|
