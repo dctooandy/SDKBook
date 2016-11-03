@@ -27,7 +27,7 @@
 
 <table>
 <tr>
-<td >request<br>(傳入參數)</td>
+<td rowspan="2">request<br>(傳入參數)</td>
 <td>參數</td>
 <td>說明</td>
 <td>是否<br> 必要</td>
