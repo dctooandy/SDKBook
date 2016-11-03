@@ -52,7 +52,7 @@ setDelegate:NSObject &lt;IsvDelegate&gt;</a> </td>
 </tr>
 <tr>
 <td> <a href="loginandplugin.md#setIsLandscape">- (void)
-setIsLandscape:sBOOL </a></td>
+setIsLandscape:BOOL </a></td>
 <td>設定 SDK 畫面以橫向(YES)或直向(NO)顯示;預設為 YES</td>
 </tr>
 <tr>
