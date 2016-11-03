@@ -29,15 +29,17 @@
 ####3.2.2 編輯 AppDelegate.m 檔，實作`<UIApplicationDelegate>`協定。
 
 #####(*有關`<UIApplicationDelegate>`協定功能的說明，請參考 [iOS 開發者文庫](https://developer.apple.com/reference/uikit/uiapplicationdelegate)。)
-<span id = "delegate"></span>
-<pre>
+
+
+
+```objecttivec
 -(BOOL) application:(UIApplication *) application 
         didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // 設定使用 IsvDelegete 的目標
-    [[LoginView sharedApplication] setDelegate:self];
+    <span id = "setDelegate">[[LoginView sharedApplication] setDelegate:self];</span>
     // 設定 SDK 畫面以橫向(YES)或直向(NO)顯示;預設為 YES
-    [[LoginView sharedApplication] setIsLandscape:YES];
+    <span id = "setIsLandscape">[[LoginView sharedApplication] setIsLandscape:YES];</span>
     // 設定 SDK 介面以繁體中文(zh_TW)或英文(en)顯示;預設為系統語系(非中則英)
     [[LoginView sharedApplication] setLocalize:@"zh_TW"];
     //設定iSGameclient_id和redirect_uri
@@ -46,7 +48,7 @@
     return [[LoginView sharedApplication] application:application
                     didFinishLaunchingWithOptions:launchOptions];
 }
-</pre>
+```
 
 >接收來自 Google 或 Facebook 回傳的登入資訊，並返回給 iSGameSDk 處理
  
