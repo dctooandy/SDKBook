@@ -263,9 +263,75 @@ actionType:@"send" sendMessage:@"xxx"];
 “FB_autoSharing”可在使用者執行 APP 期間，代替於 Facebook 發佈動態。 本功能仍需要串接按鈕 UI 供使用者啟用，且務必先向 Facebook 官方申請 publish_actions 權限;貴方若有本功能需求，請聯繫您的 iSGame 平台窗口。
 
 ####9.4.1 參數定義
-|功能名稱|FB_sendStory|
+|功能名稱|FB_autoSharing|
 |:--:|--|
-|功能描述|向 Facebook 好友發送客製邀請|
+|功能描述|可在使用者執行 APP 期間，代替於 Facebook 發佈動態|
 |回傳格式|NSDictionary(需實作 FB_sharingComplete)|
 
+<table>
+<tr>
+<td rowspan="5">request<br>(傳入參數)</td>
+<td>參數</td>
+<td>說明</td>
+<td>是否<br>必要</td>
+<td>類型</td>
+</tr>
+<tr>
+<td>uid</td>
+<td>使用者的 iSGame 平台 id</td>
+<td>Y</td>
+<td>NSString</td>
+</tr>
+<tr>
+<td>objectID</td>
+<td>object ID，由 iSGame 提供</td>
+<td>Y</td>
+<td>NSString</td>
+</tr>
+<tr>
+<td>actionType</td>
+<td>只支持”send”和”askfor”</td>
+<td>Y</td>
+<td>NSString</td>
+</tr>
+<tr>
+<td>message</td>
+<td>發送邀請時所顯示的訊息文字<br>(PC 用戶才看得到)</td>
+<td>Y</td>
+<td>NSString</td>
+</tr>
+</table>
 
+<table>
+<tr>
+<td rowspan="5">response<br>(回傳結構)</td>
+<td>參數</td>
+<td>說明</td>
+<td>繼承<br>欄位</td>
+<td>類型</td>
+</tr>
+<tr>
+<td>valid</td>
+<td>成功與否</td>
+<td>根</td>
+<td>NSNumber</td>
+</tr>
+<tr>
+<td>msg</td>
+<td>失敗或取消的訊息。若成功則回傳空值</td>
+<td>根</td>
+<td>NSString</td>
+</tr>
+<tr>
+<td>data</td>
+<td>被邀請者的 FB id。若無則回傳空陣列</td>
+<td>根</td>
+<td>NSArray</td>
+</tr>
+<tr>
+<td>event</td>
+<td>執行分享的函式名(如此功能名稱)</td>
+<td>根</td>
+<td>NSString</td>
+</tr>
+</table>
