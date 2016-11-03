@@ -67,7 +67,7 @@
 
 執行後回傳參數範例
 
-範例 :<br>
+- 範例 :<br>
 {“valid”:[1, 0],<br>
 “msgid”:[200, 998],<br>
 “msg”:[Success, not authorize],<br>
@@ -140,11 +140,17 @@
 
 執行後回傳參數範例
 
-範例 1:{“isguid”:“41574415614844”,<br>
+-  範例 1:<br>
+{<br>
+“isguid”:“41574415614844”,<br>
 “fb_id”:“1458495727776444”,<br>
 “data”:{[id], [name], [pictureUrl]},<br>
-“event”:”FB_getAuthFndList”} <br>
-範例 2:{“isguid”:“41574415614823”,<br>
+“event”:”FB_getAuthFndList”<br>
+} <br>
+- 範例 2:<br>
+{<br>
+“isguid”:“41574415614823”,<br>
 “fb_id”:“not authorize”, <br>
 “data”:{}, <br>
-“event”:”FB_getAuthFndList”}
+“event”:”FB_getAuthFndList”<br>
+}
