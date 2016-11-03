@@ -203,7 +203,7 @@
 </tr>
 <tr>
 <td>data</td>
-<td>篩選掉無需邀請好友的<br>inviteToken，如傳 nil、空陣列、陣列<br>元素為空字串，則忽略此篩選條件</td>
+<td使用者的 FB id。若使用者使用快登或<br>inviteToken，如傳 nil、空陣列、陣列<br>元素為空字串，則忽略此篩選條件</td>
 <td>根</td>
 <td>NSDictionary</td>
 </tr>
