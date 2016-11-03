@@ -108,27 +108,27 @@
 <td>類型</td>
 </tr>
 <tr>
-<td>valid</td>
-<td>成功與否</td>
+<td>isguid</td>
+<td>使用者的 iSGame 平台 id</td>
 <td>根</td>
-<td>[NSNumber by BOOL]<br>NSArray</td>
+<td>NSString</td>
 </tr>
 <tr>
-<td>msgid</td>
-<td>回傳之訊息編號，<br>請參考附錄 A. Message</td>
+<td>fb_id</td>
+<td>使用者的 FB id。若使用者使用快登或<br>Google+登入則回傳“not authorize”</td>
 <td>根</td>
-<td>[NSNumber by Integer]<br>NSArray</td>
+<td>NSString</td>
 </tr>
 <tr>
-<td>msg</td>
-<td>回傳之訊息內容，<br>請參考附錄 A. Message</td>
+<td>data</td>
+<td>已授權好友的 id array, name array,<br>pictureUrl array，若無好友則回傳空<br>NSDictionary</td>
 <td>根</td>
-<td>NSString<br>NSArray</td>
+<td>NSDictionary</td>
 </tr>
 <tr>
-<td>info</td>
-<td>回傳之基本資訊，為 Facebook 回傳的<br>JSON 資訊，通常轉成 NSDictionary，包<br>含 id 、 name 、 picture 、 first_name 、<br>last_name 、 gender 、 locale 、 link 、<br>updated_time，若某筆資訊取得失敗，其<br>對應的 info 為空字串</td>
+<td>event</td>
+<td>執行取得名單的函式名(如此功能名稱)</td>
 <td>根</td>
-<td>id<br>NSArray</td>
+<td>NSString</td>
 </tr>
 </table>
