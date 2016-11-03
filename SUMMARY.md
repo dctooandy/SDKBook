@@ -10,5 +10,5 @@
    * [客服回報介接](chap1/customerandreport.md)
    * [遊戲活動介接](chap1/gameactivity.md)
    * [遊戲公告介接](chap1/gamenews.md)
-   * [FBUserInfo](chap1/fbuserinfo.md)
+   * [Facebook 使用者名單撈取介接](chap1/fbuserinfo.md)
 
