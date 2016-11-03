@@ -37,7 +37,7 @@
 </tr>
 </table>
 
-###附錄 C. [Reference](user-content-3.2 與 SDK 介接方法)
+###附錄 C. [Reference](chap1/loginandplugin.md/3.2 與 SDK 介接方法)
 
 <table>
 <tr>
