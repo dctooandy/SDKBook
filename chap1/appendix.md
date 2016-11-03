@@ -46,9 +46,46 @@
 </tr>
 <td colspan="2" align="center">設定</td>
 <tr>
-<td>- (void)
+<td> - (void)
 setDelegate:
-NSObject<IsvDelegate></td>
+NSObject &lt;IsvDelegate&gt; </td>
 <td>設定使用 IsvDelegete 的目標</td>
+</tr>
+<tr>
+<td> - (void)
+setIsLandscape:
+BOOL </td>
+<td>設定 SDK 畫面以橫向(YES)或直向(NO)顯示;預設為 YES</td>
+</tr>
+<tr>
+<td> - (void)
+setLocalize:
+NSString </td>
+<td>設定 SDK 介面以繁體中文(zh_TW)或英文(en)顯示;預設為 系統語系(非中則英)</td>
+</tr>
+<tr>
+<td> - (void)
+setLoginKey:
+NSString</td>
+<td>設定登入後取得的 relogin key，第一次登入請傳空值</td>
+</tr>
+<tr>
+<td> - (void)
+SaveGameInfo:
+NSDictionary </td>
+<td>儲存介接方使用者資訊</td>
+</tr>
+<tr>
+<td> + (id)
+sharedApplication</td>
+<td>新產生或取得已產生過的 LoginView 物件實例</td>
+</tr>
+<tr>
+<td> - (void)
+init:
+NSString
+redirectUri:
+NSString </td>
+<td>設定 iSGame client_id 和 redirect_uri</td>
 </tr>
 </table>
