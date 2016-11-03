@@ -154,3 +154,8 @@
 “data”:{}, <br>
 “event”:”FB_getAuthFndList”<br>
 }
+
+###8.3 取得未授權好友名單(FB_fetchInvitableToken)流程說明
+
+“FB_fetchInvitableToken”(未授權好友名單撈取)可取得使用 Facebook 帳號<br>
+登入的使用者 FB id，與其 FB 好友中未授權此 APP 的 inviteToken、name、 pictureUrl。
