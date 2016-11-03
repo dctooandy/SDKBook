@@ -186,5 +186,58 @@ NSString </td>
 <td>可在使用者執行 APP 期間，代替於 Facebook 發佈動態</td>
 </tr>
 <td colspan="2" align="center">分析</td>
+<tr>
+<td> - (void)
+SendAFTrackEvent:
+NSString
+values:
+NSDictionary </td>
+<td>追蹤 AppsFlyer 的 in-app events</td>
+</tr>
+<tr>
+<td> - (id)
+GetAFConversionData </td>
+<td>拿到 AppsFlyer 的 Install Conversion Data</td>
+</tr>
+<tr>
+<td> - (void)
+SetAFUserEmails:
+NSArray </td>
+<td>設定 AppsFlyer 使用者郵件</td>
+</tr>
 <td colspan="2" align="center">Delegate</td>
+<tr>
+<td> - (void)
+initialCallback </td>
+<td>(required)iSGameSDK 初始後</td>
+</tr>
+<tr>
+<td> - (void)
+loginComplete:
+NSString </td>
+<td>(required)接收 iSGameSDK 登入成功後回傳的授權碼 (code)</td>
+</tr>
+<tr>
+<td> - (void)
+bindComplete:
+BOOL </td>
+<td>(optional)接收帳號綁定結果(YES 或 NO)</td>
+</tr>
+<tr>
+<td> - (void)
+FB_getUserInfoComplete:NSDictionary </td>
+<td>(optional)完整取得 FB 使用者基本資訊後的處理者</td>
+</tr>
+<tr>
+<td> - (void)
+FB_getAuthFndListComplete:
+NSDictionary </td>
+<td>(optional)完整取得 FB 使用者名單後的處理者</td>
+</tr>
+<tr>
+<td> - (void)
+FB_sharingComplete:
+NSDictionary </td>
+<td>(optional)FB 分享完成後的處理者</td>
+</tr>
 </table>
