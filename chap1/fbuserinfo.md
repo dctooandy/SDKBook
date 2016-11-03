@@ -159,3 +159,25 @@
 
 “FB_fetchInvitableToken”(未授權好友名單撈取)可取得使用 Facebook 帳號<br>
 登入的使用者 FB id，與其 FB 好友中未授權此 APP 的 inviteToken、name、 pictureUrl。
+
+####8.3.1 參數定義
+|功能名稱|FB_fetchInvitableToken|
+|:--:|--|
+|功能描述|取得使用者 FB id 與未授權好友的 inviteToken、name、pictureUrl|
+|回傳格式|NSDictionary(需實作 FB_getAuthFndListComplete)|
+
+<table>
+<tr>
+<td rowspan="2">request<br>(傳入參數)</td>
+<td>參數</td>
+<td>說明</td>
+<td>是否<br> 必要</td>
+<td>類型</td>
+</tr>
+<tr>
+<td>uid</td>
+<td>使用者的 iSGame 平台 id</td>
+<td>Y</td>
+<td>NSString</td>
+</tr>
+</table>
