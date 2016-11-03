@@ -22,17 +22,17 @@
 
 <table>
 <tr>
-<td>1</td>
-<td>2</td>
-<td>3</td>
+<td>SDK 名稱</td>
+<td>版本號</td>
+<td>備註</td>
 </tr>
 <tr>
-<td>1</td>
-<td>2</td>
-<td rowspan="2">23</td>
+<td>Facebook SDK</td>
+<td>4.6.0 (Graph API 2.4)</td>
+<td rowspan="2">此為建構 iSGame SDK 時的版本。貴方 實際導入時，選擇相容的版本導入即可。</td>
 </tr>
 <tr>
-<td>1</td>
-<td>2</td>
+<td>AppsFlyer SDK</td>
+<td>3.3.2</td>
 </tr>
 </table>
