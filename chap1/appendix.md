@@ -47,7 +47,7 @@
 <td colspan="2" align="center">設定</td>
 <tr>
 <td> - (void)
-setDelegate:
+<a href=#"delegate">setDelegate:</a>
 NSObject &lt;IsvDelegate&gt; </td>
 <td>設定使用 IsvDelegete 的目標</td>
 </tr>
