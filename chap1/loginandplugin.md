@@ -121,6 +121,7 @@ didFailToRegisterForRemoteNotificationsWithError:(NSError *) error
 ####3.2.3 實作`<IsvDelegate>`協定並產生登入頁。<br>
 >iSGameSDK 初始後
 
+<span id = "setLoginKey"></span>
 ```objectivec
 @required
 - (void) initialCallback
@@ -136,6 +137,7 @@ didFailToRegisterForRemoteNotificationsWithError:(NSError *) error
 
 >接收 iSGameSDK 登入成功後回傳的授權碼(code)
 
+<span id = "SaveGameInfo"></span>
 ```objectivec
 @required
 - (void) loginComplete:(NSString *) code
