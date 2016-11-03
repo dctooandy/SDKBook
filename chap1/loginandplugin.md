@@ -37,6 +37,8 @@
 
 <span id = "setLocalize"></span>
 
+<span id = "sharedApplication"></span>
+
 ```objectivec
 -(BOOL) application:(UIApplication *) application 
         didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
