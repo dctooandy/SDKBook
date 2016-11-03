@@ -15,13 +15,13 @@
 ###13.2 貴方應獲得資料項目
 | 序 | 名稱 | 說明 |
 | :--: | -- | -- |
-| 1 | <font color="blue">iSGame-iOS-SDK.zip</font><br><font color="dark">required</font> | 2:2 |
-| 2 |  Facebook <font color="blue">app_id</font><br><font color="dark">required</font> | 2:3 |
-| 3 | Facebook <font color="blue">scheme</font><br><font color="dark">required</font> | 2:4 |
-| 4 | Facebook <font color="blue">object ID</font><br><font color="dark">required</font> | 2:5 |
-| 5 | Facebook <font color="blue">Applink</font><br><font color="dark">required</font> | 2:6 |
-| 6 | Google <font color="blue">Client ID</font><br><font color="dark">required</font> | 2:7 |
-| 7 | iSGame <font color="blue">client_id</font><br><font color="dark">required</font> | 2:8 |
-| 8 | iSGame <font color="blue">client_secret</font><br><font color="dark">required</font> | 2:9 |
-| 9 | iSGame <font color="blue">redirect_uri</font><br><font color="dark">required</font> | 2:10 |
-| 10 | AppsFlyer <font color="blue">Dev Key</font><br><font color="dark">required</font> | 2:11 |
+| 1 | <font color="blue">iSGame-iOS-SDK.zip</font><br><font color="dark">required</font> | iSGame SDK，為壓縮檔 |
+| 2 |  Facebook <font color="blue">app_id</font><br><font color="dark">required</font> | 呼叫 Facebook 登入時的身分標誌，請妥善保管 |
+| 3 | Facebook <font color="blue">scheme</font><br><font color="dark">required</font> | 呼叫 Facebook Deep linking 的 scheme 名稱 |
+| 4 | Facebook <font color="blue">object ID</font><br><font color="dark">required</font> | 對應 FB 客製邀請物品的 id 編號 |
+| 5 | Facebook <font color="blue">Applink</font><br><font color="dark">required</font> | 申請 FB 自動分享審核資料通過後的 openurl 網址 |
+| 6 | Google <font color="blue">Client ID</font><br><font color="dark">required</font> | 呼叫 Google+登入時的身分標誌，請妥善保管 |
+| 7 | iSGame <font color="blue">client_id</font><br><font color="dark">required</font> | 呼叫 iSGame SDK 功能時的身分標誌，請妥善保管 |
+| 8 | iSGame <font color="blue">client_secret</font><br><font color="dark">required</font> | 呼叫 iSGame SDK 功能時的密鑰，請妥善保管 |
+| 9 | iSGame <font color="blue">redirect_uri</font><br><font color="dark">required</font> | iSGame 平台驗證用，請妥善保管 |
+| 10 | AppsFlyer <font color="blue">Dev Key</font><br><font color="dark">required</font> | 呼叫 AppsFlyer 功能時的身分標誌，請妥善保管 |
