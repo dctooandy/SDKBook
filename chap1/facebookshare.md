@@ -105,10 +105,10 @@ sendMessage:@"xxx" autoSelect:NO];
 <td>類型</td>
 </tr>
 <tr>
-<td>uid</td>
-<td>使用者的 iSGame 平台 id</td>
+<td>tokenString</td>
+<td>使用者未授權的好友 Invitable token</td>
 <td>Y</td>
-<td>NSString</td>
+<td>NSString<br>NSArray</td>
 </tr>
 <tr>
 <td>message</td>
