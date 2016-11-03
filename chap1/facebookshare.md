@@ -78,3 +78,12 @@
 >[[LoginView sharedApplication] FB_inviteViaFriendList:@"xxx"
 sendMessage:@"xxx" autoSelect:NO];
 
+執行後回傳參數範例
+
+- 範例 1:<br>
+{<br>
+“valid”:1, <br>
+“msg”:“”, <br>
+“data”:[1458495727776393, 1458495727776394],<br> “event”:”FB_inviteViaFriendList”<br>
+}
+
