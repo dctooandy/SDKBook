@@ -25,4 +25,18 @@
 </tr>
 </table>
 
-
+<table>
+<tr>
+<td >request<br>(傳入參數)</td>
+<td>參數</td>
+<td>說明</td>
+<td>是否<br> 必要</td>
+<td>類型</td>
+</tr>
+<tr>
+<td>ids</td>
+<td>好友 id，如傳 nil、空陣列、陣列元素為空字串，<br>則取得自己(me)的基本資訊</td>
+<td>Y</td>
+<td>NSString<br>NSArray</td>
+</tr>
+</table>
