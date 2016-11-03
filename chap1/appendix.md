@@ -37,7 +37,7 @@
 </tr>
 </table>
 
-###附錄 C. [Reference](loginandplugin.md#delegate)
+###附錄 C. Reference
 
 <table>
 <tr>
@@ -46,15 +46,15 @@
 </tr>
 <td colspan="2" align="center">設定</td>
 <tr>
-<td> <a href="loginandplugin.md#delegate">- (void)
+<td> <a href="loginandplugin.md#setDelegate">- (void)
 setDelegate:
 NSObject &lt;IsvDelegate&gt;</a> </td>
 <td>設定使用 IsvDelegete 的目標</td>
 </tr>
 <tr>
-<td> - (void)
+<td> <a href="loginandplugin.md#setIsLandscape">- (void)
 setIsLandscape:
-BOOL </td>
+BOOL </a></td>
 <td>設定 SDK 畫面以橫向(YES)或直向(NO)顯示;預設為 YES</td>
 </tr>
 <tr>
