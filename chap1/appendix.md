@@ -47,8 +47,7 @@
 <td colspan="2" align="center">設定</td>
 <tr>
 <td> <a href="loginandplugin.md#setDelegate">- (void)
-setDelegate:
-NSObject &lt;IsvDelegate&gt;</a> </td>
+setDelegate:NSObject &lt;IsvDelegate&gt;</a> </td>
 <td>設定使用 IsvDelegete 的目標</td>
 </tr>
 <tr>
