@@ -13,4 +13,5 @@
    * [Facebook 使用者名單撈取介接](chap1/fbuserinfo.md)
    * [Facebook 分享功能介接](chap1/facebookshare.md)
    * [AppsFlyer 介接](chap1/appsflyerplugin.md)
+   * APNS
 
