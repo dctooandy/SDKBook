@@ -4,15 +4,15 @@
 | msgid | msg | 備註 |
 | :--: | -- | -- |
 | 0 | The request is missing a required parameter, includes<br> an invalid parameter value, includes a parameter more<br> than once, or is otherwise malformed. Check the "%s"<br> parameter | 傳遞參數短少 |
-| 1 | The client is not authorized to request an access token using this method | 此 client_id 無法使用此方式 進行驗證 |
-| 2 | 1:4 | 2:4 |
-| 3 | 1:5 | 2:5 |
-| 4 | 1:6 | 2:6 |
-| 5 | 1:7 | 2:7 |
-| 6 | 1:8 | 2:8 |
-| 7 | 1:9 | 2:9 |
-| 8 | 1:10 | 2:10 |
-| 9 | 1:11 | 2:11 |
-| 200 | 1:12 | 2:12 |
-| 998 | 1:13 | 2:13 |
-| 999 | 1:14 | 2:14 |
+| 1 | The client is not authorized to request an access token<br> using this method | 此 client_id 無法使用此方式 進行驗證 |
+| 2 | The resource owner or authorization server denied the<br> request | 2:4 |
+| 3 | The authorization server does not support obtaining an<br>access token using this method | 2:5 |
+| 4 | The requested scope is invalid, unknown, or<br> malformed. Check the "%s" scope | 2:6 |
+| 5 | The authorization server encountered an unexpected<br> condition which prevented it from fulfilling the request | 2:7 |
+| 6 | The authorization server is currently unable to handle<br> the request due to a temporary overloading or<br> maintenance of the server | 2:8 |
+| 7 | The authorization grant type "%s" is not supported by<br> the authorization server | 2:9 |
+| 8 | Client authentication failed | 2:10 |
+| 9 | The provided authorization grant is invalid, expired,<br> revoked, does not match the redirection URI used in<br> the authorization request, or was issued to another<br> client. Check the "%s" parameter | 2:11 |
+| 200 | Success | 2:12 |
+| 998 | FB message | 2:13 |
+| 999 | Else message | 2:14 |
