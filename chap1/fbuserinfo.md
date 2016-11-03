@@ -175,9 +175,9 @@
 <td>類型</td>
 </tr>
 <tr>
-<td>uid</td>
-<td>使用者的 iSGame 平台 id</td>
+<td>excluded_ids</td>
+<td>篩選掉無需邀請好友的<br>inviteToken，如傳 nil、空陣列、陣列<br>元素為空字串，則忽略此篩選條件</td>
 <td>Y</td>
-<td>NSString</td>
+<td>NSString<br>NSArray</td>
 </tr>
 </table>
