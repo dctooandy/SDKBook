@@ -88,4 +88,41 @@ redirectUri:
 NSString </td>
 <td>設定 iSGame client_id 和 redirect_uri</td>
 </tr>
+<td colspan="2" align="center">帳號</td>
+<tr>
+<td> - (void)
+startLogin </td>
+<td>產生登入頁面方法</td>
+</tr>
+<tr>
+<td> - (BOOL)
+startLogout </td>
+<td>請依需求登出，尤其要提醒未綁定玩家，登出會造成資料遺 失</td>
+</tr>
+<tr>
+<td> - (void)
+startBinding:
+NSString </td>
+<td>快登綁定方法，參數為登入者的 uid</td>
+</tr>
+<td colspan="2" align="center">遊戲</td>
+<tr>
+<td> - (void)
+serviceReport:
+NSString </td>
+<td>產生客服回報頁面方法，參數為登入者的 uid</td>
+</tr>
+<tr>
+<td> - (void)
+gameActivity </td>
+<td>產生活動頁面方法</td>
+</tr>
+<tr>
+<td> - (void)
+gameNews </td>
+<td>產生公告頁面方法</td>
+</tr>
+<td colspan="2" align="center">社群</td>
+<td colspan="2" align="center">分析</td>
+<td colspan="2" align="center">Delegate</td>
 </table>
