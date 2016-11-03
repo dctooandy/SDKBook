@@ -37,7 +37,7 @@
 </tr>
 </table>
 
-###附錄 C. [Reference](chap1/loginandplugin.md/#3.登入介接)
+###附錄 C. [Reference](loginandplugin.md/#3.登入介接)
 
 <table>
 <tr>
