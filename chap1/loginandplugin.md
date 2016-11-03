@@ -20,6 +20,7 @@
 (*儲存方法由貴方自行完成，relogin key 應在下次登入時帶入 SDK)
 
 ***
+<span id = "jump">跳转到这里：</span>
 
 ###3.2 與 SDK 介接方法
 ####3.2.1 在需要 SDK 功能的檔案添加 iSGameSDK。
