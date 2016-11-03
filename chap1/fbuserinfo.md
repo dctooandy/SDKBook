@@ -199,18 +199,18 @@
 <td>fb_id</td>
 <td>篩選掉無需邀請好友的<br>inviteToken，如傳 nil、空陣列、陣列<br>元素為空字串，則忽略此篩選條件</td>
 <td>根</td>
-<td>NSString<br>NSArray</td>
+<td>NSString</td>
 </tr>
 <tr>
 <td>data</td>
 <td>篩選掉無需邀請好友的<br>inviteToken，如傳 nil、空陣列、陣列<br>元素為空字串，則忽略此篩選條件</td>
 <td>根</td>
-<td>NSString<br>NSArray</td>
+<td>NSDictionary</td>
 </tr>
 <tr>
 <td>event</td>
 <td>篩選掉無需邀請好友的<br>inviteToken，如傳 nil、空陣列、陣列<br>元素為空字串，則忽略此篩選條件</td>
 <td>根</td>
-<td>NSString<br>NSArray</td>
+<td>NSString</td>
 </tr>
 </table>
