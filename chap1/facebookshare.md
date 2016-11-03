@@ -165,3 +165,80 @@ sendMessage:@"xxx" autoSelect:NO];
 “msg”:“”, <br>
 “data”:[1458495727776393, 1458495727776394],<br> “event”:”FB_sendInvitationWithToken”<br>
 }
+
+###9.3 發送客製邀請(FB_sendStory)流程說明
+“FB_sendStory”可讓使用者向 Facebook 好友發送”send a object”或”ask for a object”等客製邀請;發送成功可取得被邀請者的 FB id。貴方若想使用此功能，應在 APP 中加入串接本功能的按鈕 UI。
+
+####9.3.1 參數定義
+|功能名稱|FB_sendStory|
+|:--:|--|
+|功能描述|向 Facebook 好友發送客製邀請|
+|回傳格式|NSDictionary(需實作 FB_sharingComplete)|
+
+<table>
+<tr>
+<td rowspan="5">request<br>(傳入參數)</td>
+<td>參數</td>
+<td>說明</td>
+<td>是否<br>必要</td>
+<td>類型</td>
+</tr>
+<tr>
+<td>uid</td>
+<td>使用者的 iSGame 平台 id</td>
+<td>Y</td>
+<td>NSString</td>
+</tr>
+<tr>
+<td>objectID</td>
+<td>object ID，由 iSGame 提供</td>
+<td>Y</td>
+<td>NSString</td>
+</tr>
+<tr>
+<td>actionType</td>
+<td>只支持”send”和”askfor”</td>
+<td>Y</td>
+<td>NSString</td>
+</tr>
+<tr>
+<td>message</td>
+<td>發送邀請時所顯示的訊息文字<br>(PC 用戶才看得到)</td>
+<td>Y</td>
+<td>NSString</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td rowspan="5">response<br>(回傳結構)</td>
+<td>參數</td>
+<td>說明</td>
+<td>繼承<br>欄位</td>
+<td>類型</td>
+</tr>
+<tr>
+<td>valid</td>
+<td>成功與否</td>
+<td>根</td>
+<td>NSNumber</td>
+</tr>
+<tr>
+<td>msg</td>
+<td>失敗或取消的訊息。若成功則回傳空值</td>
+<td>根</td>
+<td>NSString</td>
+</tr>
+<tr>
+<td>data</td>
+<td>被邀請者的 FB id。若無則回傳空陣列</td>
+<td>根</td>
+<td>NSArray</td>
+</tr>
+<tr>
+<td>event</td>
+<td>執行分享的函式名(如此功能名稱)</td>
+<td>根</td>
+<td>NSString</td>
+</tr>
+</table>
