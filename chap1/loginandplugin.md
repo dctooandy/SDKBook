@@ -34,6 +34,9 @@
 <span id = "setDelegate"></span>
 
 <span id = "setIsLandscape"></span>
+
+<span id = "setLocalize"></span>
+
 ```objectivec
 -(BOOL) application:(UIApplication *) application 
         didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
