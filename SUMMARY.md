@@ -9,4 +9,5 @@
    * [帳號綁定介接](chap1/accountplugin.md)
    * [客服回報介接](chap1/customerandreport.md)
    * [遊戲活動介接](chap1/gameactivity.md)
+   * gameNews
 
