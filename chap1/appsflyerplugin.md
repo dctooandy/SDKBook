@@ -41,3 +41,23 @@
 
 ###10.2 取得深層資料(GetAFConversionData)流程說明
 “GetAFConversionData”(取得深層資料)可以拿到 AppsFlyer 的 Install Conversion Data。主要屬性值為「media_source」與「campaign」，其餘屬性 請參考[這裡](https://support.appsflyer.com/hc/en-us/articles/207032096-Accessing-AppsFlyer-Attribution-Conversion-Data-from-the-SDK-iOS-Deferred-Deeplinking-)。
+
+####10.2.1 參數定義
+|功能名稱|GetAFConversionData|
+|:--:|--|
+|功能描述|拿到 AppsFlyer 的 Install Conversion Data|
+|回傳格式|id|
+
+<table>
+<tr>
+<td rowspan="2">response<br>(回傳結構)</td>
+<td>說明</td>
+<td>繼承<br>欄位</td>
+<td>類型</td>
+</tr>
+<tr>
+<td>回傳取得的 AppsFlyer Conversion Data，若得到<br>非 NSDictionary 格式即為 error message</td>
+<td>根</td>
+<td>id</td>
+</tr>
+</table>
