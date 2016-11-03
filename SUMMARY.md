@@ -11,5 +11,5 @@
    * [遊戲活動介接](chap1/gameactivity.md)
    * [遊戲公告介接](chap1/gamenews.md)
    * [Facebook 使用者名單撈取介接](chap1/fbuserinfo.md)
-   * [FacebookShare](chap1/facebookshare.md)
+   * [Facebook 分享功能介接](chap1/facebookshare.md)
 
