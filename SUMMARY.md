@@ -8,5 +8,5 @@
    * [登入介接](chap1/loginandplugin.md)
    * [帳號綁定介接](chap1/accountplugin.md)
    * [客服回報介接](chap1/customerandreport.md)
-   * [gameactivity](chap1/gameactivity.md)
+   * [6.遊戲活動介接](chap1/gameactivity.md)
 
