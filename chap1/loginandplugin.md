@@ -29,7 +29,7 @@
 
 #####(*有關`<UIApplicationDelegate>`協定功能的說明，請參考 [iOS 開發者文庫](https://developer.apple.com/reference/uikit/uiapplicationdelegate)。)
 
-<h5 id="delegate"><pre>
+<section id="delegate"><pre>
 -(BOOL) application:(UIApplication *) application 
         didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
@@ -46,7 +46,7 @@
                     didFinishLaunchingWithOptions:launchOptions];
 }
 </pre>
-</h5>
+</section>
 >接收來自 Google 或 Facebook 回傳的登入資訊，並返回給 iSGameSDk 處理
  
 <pre>
