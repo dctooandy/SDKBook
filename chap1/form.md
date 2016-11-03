@@ -16,12 +16,12 @@
 | 序 | 名稱 | 說明 |
 | :--: | -- | -- |
 | 1 | <font color="blue">iSGame-iOS-SDK.zip</font><br><font color="dark">required</font> | 2:2 |
-| 2 | 1:3 | 2:3 |
-| 3 | 1:4 | 2:4 |
-| 4 | 1:5 | 2:5 |
-| 5 | 1:6 | 2:6 |
-| 6 | 1:7 | 2:7 |
-| 7 | 1:8 | 2:8 |
-| 8 | 1:9 | 2:9 |
-| 9 | 1:10 | 2:10 |
-| 10 | 1:11 | 2:11 |
+| 2 |  Facebook <font color="blue">iSGame</font><br><font color="dark">required</font> | 2:3 |
+| 3 | Facebook <font color="blue">iSGame</font><br><font color="dark">required</font> | 2:4 |
+| 4 | Facebook <font color="blue">iSGame</font><br><font color="dark">required</font> | 2:5 |
+| 5 | Facebook <font color="blue">iSGame</font><br><font color="dark">required</font> | 2:6 |
+| 6 | Google <font color="blue">iSGame</font><br><font color="dark">required</font> | 2:7 |
+| 7 | iSGame <font color="blue">iSGame</font><br><font color="dark">required</font> | 2:8 |
+| 8 | iSGame <font color="blue">iSGame</font><br><font color="dark">required</font> | 2:9 |
+| 9 | iSGame <font color="blue">iSGame</font><br><font color="dark">required</font> | 2:10 |
+| 10 | AppsFlyer <font color="blue">iSGame</font><br><font color="dark">required</font> | 2:11 |
