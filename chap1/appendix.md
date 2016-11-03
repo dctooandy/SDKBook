@@ -37,7 +37,7 @@
 </tr>
 </table>
 
-###附錄 C. [Reference](#jump)
+###附錄 C. [Reference](loginandplugin.md#jump)
 
 <table>
 <tr>
