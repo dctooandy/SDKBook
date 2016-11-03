@@ -18,7 +18,7 @@
 | 999 | Else message | 發生不可預期的錯誤，導致<br>出現非以上訊息時 |
 
 
-###附錄 B. Third-party SDK
+###附錄 B. Third-party <h2 id="dele">SDK</h2>
 
 <table>
 <tr>
