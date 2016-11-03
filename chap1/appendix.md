@@ -1,4 +1,4 @@
-# <h1 id="dele">附錄</h1>
+# 附錄
 
 ###附錄 A. Message
 | msgid | msg | 備註 |
