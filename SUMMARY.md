@@ -14,5 +14,5 @@
    * [Facebook 分享功能介接](chap1/facebookshare.md)
    * [AppsFlyer 介接](chap1/appsflyerplugin.md)
    * [訊息推播(APNS)](chap1/apns.md)
-   * [blocklogin](chap1/blocklogin.md)
+   * [登入屏蔽](chap1/blocklogin.md)
 
