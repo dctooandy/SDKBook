@@ -132,3 +132,19 @@
 <td>NSString</td>
 </tr>
 </table>
+
+####8.2.2 程式實作
+執行取得 Facebook 已授權好友名單範例
+>// 取得使用者 FB id 與已授權好友的 id、name、pictureUrl<br>
+>[[LoginView sharedApplication] FB_getAuthFndList:@"xxx"];
+
+執行後回傳參數範例
+
+範例 1:{“isguid”:“41574415614844”,<br>
+“fb_id”:“1458495727776444”,<br>
+“data”:{[id], [name], [pictureUrl]},<br>
+“event”:”FB_getAuthFndList”} <br>
+範例 2:{“isguid”:“41574415614823”,<br>
+“fb_id”:“not authorize”, <br>
+“data”:{}, <br>
+“event”:”FB_getAuthFndList”}
