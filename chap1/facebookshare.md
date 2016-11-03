@@ -157,3 +157,11 @@ sendMessage:@"xxx" autoSelect:NO];
 >// 使用 Invitable token 向 Facebook 好友發送 APP 邀請<br>
 >[[LoginView sharedApplication] FB_sendInvitationWithToken: [Invitabletoken1, Invitabletoken2] sendMessage:@"xxx"];
 
+執行後回傳參數範例
+
+- 範例 1:<br>
+{<br>
+“valid”:1, <br>
+“msg”:“”, <br>
+“data”:[1458495727776393, 1458495727776394],<br> “event”:”FB_sendInvitationWithToken”<br>
+}
