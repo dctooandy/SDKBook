@@ -37,7 +37,7 @@
 </tr>
 </table>
 
-###附錄 C. [Reference](#dele)
+###附錄 C. [Reference](###3.2 與 SDK 介接方法)
 
 <table>
 <tr>
