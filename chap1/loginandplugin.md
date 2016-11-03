@@ -221,4 +221,6 @@ didFailToRegisterForRemoteNotificationsWithError:(NSError *) error
 
 ***
 ###3.4 iSGame OAuth 伺服器返回 Game Server 資料
-3.4.1 登入成功:
+
+<hr size="5" align="center" noshade width="30%" color="0000ff">
+<p align='right'>3.4.1 登入成功:</p>
