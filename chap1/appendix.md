@@ -37,7 +37,7 @@
 </tr>
 </table>
 
-###附錄 C. [Reference](loginandplugin.md/#3.2 與 SDK 介接方法)
+###附錄 C. [Reference](#jump)
 
 <table>
 <tr>
