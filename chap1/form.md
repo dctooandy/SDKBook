@@ -16,12 +16,12 @@
 | 序 | 名稱 | 說明 |
 | :--: | -- | -- |
 | 1 | <font color="blue">iSGame-iOS-SDK.zip</font><br><font color="dark">required</font> | 2:2 |
-| 2 |  Facebook <font color="blue">iSGame</font><br><font color="dark">required</font> | 2:3 |
-| 3 | Facebook <font color="blue">iSGame</font><br><font color="dark">required</font> | 2:4 |
-| 4 | Facebook <font color="blue">iSGame</font><br><font color="dark">required</font> | 2:5 |
-| 5 | Facebook <font color="blue">iSGame</font><br><font color="dark">required</font> | 2:6 |
-| 6 | Google <font color="blue">iSGame</font><br><font color="dark">required</font> | 2:7 |
-| 7 | iSGame <font color="blue">iSGame</font><br><font color="dark">required</font> | 2:8 |
-| 8 | iSGame <font color="blue">iSGame</font><br><font color="dark">required</font> | 2:9 |
-| 9 | iSGame <font color="blue">iSGame</font><br><font color="dark">required</font> | 2:10 |
-| 10 | AppsFlyer <font color="blue">iSGame</font><br><font color="dark">required</font> | 2:11 |
+| 2 |  Facebook <font color="blue">app_id</font><br><font color="dark">required</font> | 2:3 |
+| 3 | Facebook <font color="blue">scheme</font><br><font color="dark">required</font> | 2:4 |
+| 4 | Facebook <font color="blue">object ID</font><br><font color="dark">required</font> | 2:5 |
+| 5 | Facebook <font color="blue">Applink</font><br><font color="dark">required</font> | 2:6 |
+| 6 | Google <font color="blue">Client ID</font><br><font color="dark">required</font> | 2:7 |
+| 7 | iSGame <font color="blue">client_id</font><br><font color="dark">required</font> | 2:8 |
+| 8 | iSGame <font color="blue">client_secret</font><br><font color="dark">required</font> | 2:9 |
+| 9 | iSGame <font color="blue">redirect_uri</font><br><font color="dark">required</font> | 2:10 |
+| 10 | AppsFlyer <font color="blue">Dev Key</font><br><font color="dark">required</font> | 2:11 |
