@@ -123,6 +123,68 @@ gameNews </td>
 <td>產生公告頁面方法</td>
 </tr>
 <td colspan="2" align="center">社群</td>
+<tr>
+<td> - (void)
+FB_getUserInfo:
+NSArray </td>
+<td>取得 FB 使用者基本資訊</td>
+</tr>
+<tr>
+<td> - (void)
+FB_getAuthFndList:
+NSString </td>
+<td>取得使用者 FB id 與已授權好友的 id、name、pictureUrl</td>
+</tr>
+<tr>
+<td> - (void)
+FB_fetchInvitableToken:
+NSArray </td>
+<td>取得使用者 FB id 與未授權好友的 inviteToken、name、 pictureUrl</td>
+</tr>
+<tr>
+<td> - (void)
+FB_inviteViaFriendList:
+NSString
+sendMessage:
+NSString
+autoSelect:
+BOOL </td>
+<td>向 Facebook 好友發送 APP 邀請</td>
+</tr>
+<tr>
+<td> - (void)
+FB_sendInvitationWithToken:
+NSArray
+sendMessage:
+NSString </td>
+<td>使用 Invitable token 向 Facebook 好友發送 APP 邀請</td>
+</tr>
+<tr>
+<td> - (void)
+FB_sendStory:
+NSString
+objectID:
+NSString
+actionType:
+NSString
+sendMessage:
+NSString </td>
+<td>向 Facebook 好友發送客製邀請</td>
+</tr>
+<tr>
+<td> - (void)
+FB_autoSharing:
+NSString
+Link:
+NSString
+Title:
+NSString
+picUrl:
+NSString
+postMessage:
+NSString </td>
+<td>可在使用者執行 APP 期間，代替於 Facebook 發佈動態</td>
+</tr>
 <td colspan="2" align="center">分析</td>
 <td colspan="2" align="center">Delegate</td>
 </table>
