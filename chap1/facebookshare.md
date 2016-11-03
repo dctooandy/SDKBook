@@ -341,3 +341,18 @@ actionType:@"send" sendMessage:@"xxx"];
 <td>NSString</td>
 </tr>
 </table>
+
+####9.4.2 程式實作
+執行 Facebook 發佈動態範例
+>// 可在使用者執行 APP 期間，代替於 Facebook 發佈動態<br>
+>[[LoginView sharedApplication] FB_autoSharing:@"xxx" Link:@"xxx"
+Title:@"xxx" picUrl:@"xxx" postMessage:@"xxx"];
+
+執行後回覆範例
+
+- 範例 1:<br>
+{<br>
+“valid”:1, <br>
+“msg”:“”, <br>
+“data”:[1458495727776393, 1458495727776394],<br> “event”:”FB_autoSharing”<br>
+}
