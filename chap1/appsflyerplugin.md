@@ -22,14 +22,19 @@
 </tr>
 <tr>
 <td>name</td>
-<td>自定義或 AppsFlyer 提供的 event<br>name，請參考這裡</td>
+<td>自定義或 AppsFlyer 提供的 event<br>name，請參考[這裡](https://support.appsflyer.com/hc/en-us/articles/207577713)</td>
 <td>Y</td>
 <td>NSString</td>
 </tr>
 <tr>
 <td>values</td>
-<td>自定義或 AppsFlyer 提供的 event<br>values，請參考這裡</td>
+<td>自定義或 AppsFlyer 提供的 event<br>values，請參考[這裡](https://support.appsflyer.com/hc/en-us/articles/207577713)</td>
 <td>Y</td>
 <td>NSDictionary</td>
 </tr>
 </table>
+
+####10.1.2 程式實作
+執行寄送追蹤事件範例
+>// 追蹤 AppsFlyer 的 in-app events<br>
+>[[LoginView sharedApplication] SendAFTrackEvent:@"xxx" values:NSDictionary];
