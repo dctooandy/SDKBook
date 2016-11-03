@@ -248,3 +248,11 @@ didFailToRegisterForRemoteNotificationsWithError:(NSError *) error
 |valid|驗證結果"false"|
 |msgId|錯誤訊息 id，請參考附錄 A. Message|
 |msg|錯誤訊息，請參考附錄 A. Message|
+
+返回資料範例:<br>
+{"vaild":"false","msgId":"8","msg":"Client authentication failed"}
+
+####3.4.3 登入完成後，貴方應於
+
+1 遊戲伺服器儲存 uid, access_token, key, user_type。 <br>
+2 用戶端儲存 uid, key, user_type。
