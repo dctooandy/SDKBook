@@ -16,3 +16,23 @@
 | 200 | Success | 成功 |
 | 998 | FB message | FB 相關訊息 |
 | 999 | Else message | 發生不可預期的錯誤，導致出現非以上訊息時 |
+
+
+###附錄 B. Third-party SDK
+
+<table>
+<tr>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+</tr>
+<tr>
+<td>1</td>
+<td>2</td>
+<td rowspan="2">23</td>
+</tr>
+<tr>
+<td>1</td>
+<td>2</td>
+</tr>
+</table>
