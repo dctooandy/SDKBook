@@ -34,27 +34,27 @@
 <td>類型</td>
 </tr>
 <tr>
-<td>ids</td>
-<td>好友 id，如傳 nil、空陣列、陣列元素為空字串，<br>則取得自己(me)的基本資訊</td>
-<td>Y</td>
+<td>valid</td>
+<td>成功與否</td>
+<td>根</td>
+<td>[NSNumber by BOOL]<br>NSArray</td>
+</tr>
+<tr>
+<td>msgid</td>
+<td>回傳之訊息編號，<br>請參考附錄 A. Message</td>
+<td>根</td>
 <td>NSString<br>NSArray</td>
 </tr>
 <tr>
-<td>ids</td>
-<td>好友 id，如傳 nil、空陣列、陣列元素為空字串，<br>則取得自己(me)的基本資訊</td>
-<td>Y</td>
+<td>msg</td>
+<td>回傳之訊息內容，<br>請參考附錄 A. Message</td>
+<td>根</td>
 <td>NSString<br>NSArray</td>
 </tr>
 <tr>
-<td>ids</td>
-<td>好友 id，如傳 nil、空陣列、陣列元素為空字串，<br>則取得自己(me)的基本資訊</td>
-<td>Y</td>
-<td>NSString<br>NSArray</td>
-</tr>
-<tr>
-<td>ids</td>
-<td>好友 id，如傳 nil、空陣列、陣列元素為空字串，<br>則取得自己(me)的基本資訊</td>
-<td>Y</td>
+<td>info</td>
+<td>回傳之基本資訊，為 Facebook 回傳的<br>JSON 資訊，通常轉成 NSDictionary，包<br>含 id 、 name 、 picture 、 first_name 、<br>last_name 、 gender 、 locale 、 link 、<br>updated_time，若某筆資訊取得失敗，其<br>對應的 info 為空字串</td>
+<td>根</td>
 <td>NSString<br>NSArray</td>
 </tr>
 </table>
