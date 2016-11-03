@@ -20,7 +20,7 @@
 (*儲存方法由貴方自行完成，relogin key 應在下次登入時帶入 SDK)
 
 ***
-<span id = "jump">跳转到这里：</span>
+
 
 ###3.2 與 SDK 介接方法
 ####3.2.1 在需要 SDK 功能的檔案添加 iSGameSDK。
@@ -29,7 +29,7 @@
 ####3.2.2 編輯 AppDelegate.m 檔，實作`<UIApplicationDelegate>`協定。
 
 #####(*有關`<UIApplicationDelegate>`協定功能的說明，請參考 [iOS 開發者文庫](https://developer.apple.com/reference/uikit/uiapplicationdelegate)。)
-
+<span id = "delegate"></span>
 <pre>
 -(BOOL) application:(UIApplication *) application 
         didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
