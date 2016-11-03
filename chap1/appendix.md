@@ -62,28 +62,28 @@ NSString</a> </td>
 <td>設定 SDK 介面以繁體中文(zh_TW)或英文(en)顯示;預設為 系統語系(非中則英)</td>
 </tr>
 <tr>
-<td> - (void)
+<td> <a href="loginandplugin.md#setLoginKey">- (void)
 setLoginKey:
-NSString</td>
+NSString</a></td>
 <td>設定登入後取得的 relogin key，第一次登入請傳空值</td>
 </tr>
 <tr>
-<td> - (void)
+<td> <a href="loginandplugin.md#SaveGameInfo">- (void)
 SaveGameInfo:
-NSDictionary </td>
+NSDictionary</a> </td>
 <td>儲存介接方使用者資訊</td>
 </tr>
 <tr>
-<td> + (id)
-sharedApplication</td>
+<td> <a href="loginandplugin.md#sharedApplication">+ (id)
+sharedApplication</a></td>
 <td>新產生或取得已產生過的 LoginView 物件實例</td>
 </tr>
 <tr>
-<td> - (void)
+<td> <a href="loginandplugin.md#redirectUri">- (void)
 init:
 NSString
 redirectUri:
-NSString </td>
+NSString </a></td>
 <td>設定 iSGame client_id 和 redirect_uri</td>
 </tr>
 <td colspan="2" align="center">帳號</td>
