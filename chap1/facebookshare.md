@@ -257,3 +257,15 @@ actionType:@"send" sendMessage:@"xxx"];
 “msg”:“”, <br>
 “data”:[1458495727776393, 1458495727776394],<br> “event”:”FB_sendStory”<br>
 }
+
+###9.4 背景自動分享(FB_autoSharing)流程說明
+
+“FB_autoSharing”可在使用者執行 APP 期間，代替於 Facebook 發佈動態。 本功能仍需要串接按鈕 UI 供使用者啟用，且務必先向 Facebook 官方申請 publish_actions 權限;貴方若有本功能需求，請聯繫您的 iSGame 平台窗口。
+
+####9.4.1 參數定義
+|功能名稱|FB_sendStory|
+|:--:|--|
+|功能描述|向 Facebook 好友發送客製邀請|
+|回傳格式|NSDictionary(需實作 FB_sharingComplete)|
+
+
