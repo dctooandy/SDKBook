@@ -9,3 +9,9 @@
 |:--:|--|
 |功能描述|向 Facebook 好友發送 APP 邀請|
 |回傳格式|NSDictionary(需實作 FB_sharingComplete)|
+
+<table>
+<tr>
+<td ></td>
+</tr>
+</table>
