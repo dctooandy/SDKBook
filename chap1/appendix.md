@@ -193,7 +193,7 @@ NSDictionary</a> </td>
 <td>追蹤 AppsFlyer 的 in-app events</td>
 </tr>
 <tr>
-<td> - (id)
+<td> <a href="appsflyerplugin.md#GetAFConversionData">- (id)
 GetAFConversionData </td>
 <td>拿到 AppsFlyer 的 Install Conversion Data</td>
 </tr>
