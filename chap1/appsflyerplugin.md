@@ -36,6 +36,8 @@
 
 ####10.1.2 程式實作
 執行寄送追蹤事件範例
+<span id="SendAFTrackEvent"></span>
+
 >// 追蹤 AppsFlyer 的 in-app events<br>
 >[[LoginView sharedApplication] SendAFTrackEvent:@"xxx" values:NSDictionary];
 
