@@ -66,6 +66,8 @@
 
 ####10.2.2 程式實作
 執行取得深層資料範例
+<span id="GetAFConversionData"></span>
+
 >// 拿到 AppsFlyer 的 Install Conversion Data<br>
 >id data = [[LoginView sharedApplication] GetAFConversionData];
 
