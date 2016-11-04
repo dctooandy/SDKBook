@@ -122,9 +122,9 @@ gameNews</a> </td>
 </tr>
 <td colspan="2" align="center">社群</td>
 <tr>
-<td> <a href="">- (void)
+<td> <a href="fbuserinfo.md#FB_getUserInfo">- (void)
 FB_getUserInfo:
-NSArray </td>
+NSArray</a> </td>
 <td>取得 FB 使用者基本資訊</td>
 </tr>
 <tr>
