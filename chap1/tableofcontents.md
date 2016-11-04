@@ -32,7 +32,7 @@
 >8.2 取得已授權好友名單(FB_getAuthFndList)流程說明...<br>
 >8.3 取得未授權好友名單(FB_fetchInvitableToken)流程說明...
 
-[9.Facebook 分享功能介接](../chap1/fbuserinfo.md)
+[9.Facebook 分享功能介接](../chap1/facebookshare.md)
 
 >9.1 邀請好友(FB_inviteViaFriendList)流程說明...<br>
 >9.2 邀請好友(FB_sendInvitationWithToken)流程說明...<br>
