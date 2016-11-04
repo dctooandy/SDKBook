@@ -173,6 +173,8 @@ didFailToRegisterForRemoteNotificationsWithError:(NSError *) error
 
 >接收帳號綁定結果(YES 或 NO)
 
+<span id = "bindComplete"></span>
+
 ```objectivec
 @optional
 -(void) bindComplete:(BOOL) isSuccess {}
