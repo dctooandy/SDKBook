@@ -220,6 +220,8 @@
 
 ####8.3.2 程式實作
 執行取得 Facebook 未授權好友名單範例
+<span id="FB_fetchInvitableToken"></span>
+
 >// 取得使用者 FB id 與未授權好友的 inviteToken、name、pictureUrl<br>
 >[[LoginView sharedApplication] FB_fetchInvitableToken:NSArray];
 
