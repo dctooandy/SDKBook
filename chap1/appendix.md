@@ -205,8 +205,8 @@ NSArray </td>
 </tr>
 <td colspan="2" align="center">Delegate</td>
 <tr>
-<td> - (void)
-initialCallback </td>
+<td> <a href="loginandplugin.md#initialCallback">- (void)
+initialCallback</a> </td>
 <td>(required)iSGameSDK 初始後</td>
 </tr>
 <tr>
