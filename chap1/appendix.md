@@ -88,8 +88,8 @@ NSString </a></td>
 </tr>
 <td colspan="2" align="center">帳號</td>
 <tr>
-<td> - (void)
-startLogin </td>
+<td> <a href="loginandplugin.md#startLogin">- (void)
+startLogin</a> </td>
 <td>產生登入頁面方法</td>
 </tr>
 <tr>
