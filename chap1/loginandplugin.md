@@ -125,6 +125,9 @@ didFailToRegisterForRemoteNotificationsWithError:(NSError *) error
 >iSGameSDK 初始後
 
 <span id = "setLoginKey"></span>
+
+<span id = "startLogin"></span>
+
 ```objectivec
 @required
 - (void) initialCallback
