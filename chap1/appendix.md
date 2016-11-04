@@ -158,7 +158,7 @@ NSString</a> </td>
 <td>使用 Invitable token 向 Facebook 好友發送 APP 邀請</td>
 </tr>
 <tr>
-<td> - (void)
+<td> <a href="facebookshare.md#FB_sendStory">- (void)
 FB_sendStory:
 NSString
 objectID:
@@ -166,7 +166,7 @@ NSString
 actionType:
 NSString
 sendMessage:
-NSString </td>
+NSString</a> </td>
 <td>向 Facebook 好友發送客製邀請</td>
 </tr>
 <tr>
