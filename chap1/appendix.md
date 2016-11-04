@@ -212,7 +212,7 @@ initialCallback</a> </td>
 <tr>
 <td> <a href="loginandplugin.md#loginComplete">- (void)
 loginComplete:
-NSString </td>
+NSString</a> </td>
 <td>(required)接收 iSGameSDK 登入成功後回傳的授權碼 (code)</td>
 </tr>
 <tr>
