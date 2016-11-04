@@ -136,6 +136,8 @@
 
 ####8.2.2 程式實作
 執行取得 Facebook 已授權好友名單範例
+<span id="FB_getAuthFndList"></span>
+
 >// 取得使用者 FB id 與已授權好友的 id、name、pictureUrl<br>
 >[[LoginView sharedApplication] FB_getAuthFndList:@"xxx"];
 
