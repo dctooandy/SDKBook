@@ -216,9 +216,9 @@ NSString</a> </td>
 <td>(required)接收 iSGameSDK 登入成功後回傳的授權碼 (code)</td>
 </tr>
 <tr>
-<td> - (void)
+<td> <a href="loginandplugin.md#bindComplete">- (void)
 bindComplete:
-BOOL </td>
+BOOL</a> </td>
 <td>(optional)接收帳號綁定結果(YES 或 NO)</td>
 </tr>
 <tr>
