@@ -198,7 +198,7 @@ GetAFConversionData </td>
 <td>拿到 AppsFlyer 的 Install Conversion Data</td>
 </tr>
 <tr>
-<td> - (void)
+<td> <a href="appsflyerplugin.md#SetAFUserEmails">- (void)
 SetAFUserEmails:
 NSArray </td>
 <td>設定 AppsFlyer 使用者郵件</td>
