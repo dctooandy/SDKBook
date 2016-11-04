@@ -26,7 +26,7 @@
 [5.客服回報介接](../chap1/customerandreport.md)<br>
 [6.遊戲活動介接](../chap1/gameactivity.md)<br>
 [7.遊戲公告介接](../chap1/gamenews.md)<br>
-[8.Facebook 使用者名單撈取介接](../chap1/loginandplugin.md)
+[8.Facebook 使用者名單撈取介接](../chap1/fbuserinfo.md)
 
 >8.1 取得使用者基本資訊(FB_getUserInfo)流程說明...<br>
 >8.2 取得已授權好友名單(FB_getAuthFndList)流程說明...<br>
