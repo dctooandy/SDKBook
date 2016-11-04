@@ -350,6 +350,8 @@ actionType:@"send" sendMessage:@"xxx"];
 
 ####9.4.2 程式實作
 執行 Facebook 發佈動態範例
+<span id="FB_autoSharing"></span>
+
 >// 可在使用者執行 APP 期間，代替於 Facebook 發佈動態<br>
 >[[LoginView sharedApplication] FB_autoSharing:@"xxx" Link:@"xxx"
 Title:@"xxx" picUrl:@"xxx" postMessage:@"xxx"];
