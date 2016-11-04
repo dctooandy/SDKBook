@@ -129,6 +129,9 @@ didFailToRegisterForRemoteNotificationsWithError:(NSError *) error
 <span id = "startLogin"></span>
 
 <span id = "startLogout"></span>
+
+<span id = "initialCallback"></span>
+
 ```objectivec
 @required
 - (void) initialCallback
