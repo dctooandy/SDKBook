@@ -150,11 +150,11 @@ BOOL</a> </td>
 <td>向 Facebook 好友發送 APP 邀請</td>
 </tr>
 <tr>
-<td> - (void)
+<td> <a href="facebookshare.md#FB_sendInvitationWithToken">- (void)
 FB_sendInvitationWithToken:
 NSArray
 sendMessage:
-NSString </td>
+NSString</a> </td>
 <td>使用 Invitable token 向 Facebook 好友發送 APP 邀請</td>
 </tr>
 <tr>
