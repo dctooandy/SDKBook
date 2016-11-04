@@ -98,9 +98,9 @@ startLogout</a> </td>
 <td>請依需求登出，尤其要提醒未綁定玩家，登出會造成資料遺 失</td>
 </tr>
 <tr>
-<td> - (void)
+<td> <a href="accountplugin.md#startBinding">- (void)
 startBinding:
-NSString </td>
+NSString</a> </td>
 <td>快登綁定方法，參數為登入者的 uid</td>
 </tr>
 <td colspan="2" align="center">遊戲</td>
