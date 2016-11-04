@@ -23,7 +23,7 @@ iSGame SDK 僅支援 iOS 7.0 以上韌體，貴方請確保測試環境不低於
 >>8. iSGame client_secret <br>
 >>9. iSGame redirect_uri <br>
 >>10. AppsFlyer Dev Key <br>
->>請參考 [13.申請表單]()。
+>>請參考 [13.申請表單](form.md#13.申請表單)。
 
 ####2.4 在 Xcode 設定遊戲專案環境
 依照以下方法編輯專案的.plist 檔，加入 2.3 取得的 Facebook scheme、app_id 與 Google Client ID 與 iSGame client_id、redirect_uri 與 AppsFlyer Dev Key。
