@@ -198,6 +198,8 @@ didFailToRegisterForRemoteNotificationsWithError:(NSError *) error
 
 >完整取得 FB 使用者名單後的處理者
 
+<span id = "FB_getAuthFndListComplete"></span>
+
 ```objectivec
 @optional
 - (void) FB_getAuthFndListComplete:(NSDictionary *) FBAuthFndList
