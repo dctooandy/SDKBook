@@ -185,11 +185,11 @@ NSString</a> </td>
 </tr>
 <td colspan="2" align="center">分析</td>
 <tr>
-<td> - (void)
+<td> <a href="appsflyerplugin.md#SendAFTrackEvent">- (void)
 SendAFTrackEvent:
 NSString
 values:
-NSDictionary </td>
+NSDictionary</a> </td>
 <td>追蹤 AppsFlyer 的 in-app events</td>
 </tr>
 <tr>
