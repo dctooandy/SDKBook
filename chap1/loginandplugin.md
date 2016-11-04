@@ -215,6 +215,8 @@ didFailToRegisterForRemoteNotificationsWithError:(NSError *) error
 
 >FB 分享完成後的處理者
 
+<span id = "FB_sharingComplete"></span>
+
 ```objectivec
 @optional
 - (void) FB_sharingComplete:(NSDictionary *) FBRequestList
