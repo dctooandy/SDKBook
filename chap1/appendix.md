@@ -140,13 +140,13 @@ NSArray</a> </td>
 <td>取得使用者 FB id 與未授權好友的 inviteToken、name、 pictureUrl</td>
 </tr>
 <tr>
-<td> - (void)
+<td> <a href="facebookshare.md#FB_inviteViaFriendList">- (void)
 FB_inviteViaFriendList:
 NSString
 sendMessage:
 NSString
 autoSelect:
-BOOL </td>
+BOOL</a> </td>
 <td>向 Facebook 好友發送 APP 邀請</td>
 </tr>
 <tr>
