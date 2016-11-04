@@ -116,7 +116,7 @@ gameActivity</a> </td>
 <td>產生活動頁面方法</td>
 </tr>
 <tr>
-<td> <a href="gameactivity.md#gameNews">- (void)
+<td> <a href="gamenews.md#gameNews">- (void)
 gameNews</a> </td>
 <td>產生公告頁面方法</td>
 </tr>
