@@ -93,8 +93,8 @@ startLogin</a> </td>
 <td>產生登入頁面方法</td>
 </tr>
 <tr>
-<td> - (BOOL)
-startLogout </td>
+<td> <a href="loginandplugin.md#startLogout">- (BOOL)
+startLogout</a> </td>
 <td>請依需求登出，尤其要提醒未綁定玩家，登出會造成資料遺 失</td>
 </tr>
 <tr>
