@@ -22,7 +22,7 @@
 >3.3 與 iSGame OAuth 伺服器介接方法 ...<br>
 >3.4 iSGame OAuth 伺服器返回 Game Server 資料...
 
-[4.帳號綁定介接](../chap1/loginandplugin.md)<br>
+[4.帳號綁定介接](../chap1/accountplugin.md)<br>
 [5.客服回報介接](../chap1/loginandplugin.md)<br>
 [6.遊戲活動介接](../chap1/loginandplugin.md)<br>
 [7.遊戲公告介接](../chap1/loginandplugin.md)<br>
