@@ -47,7 +47,7 @@
 
 [11.訊息推播(APNS)](../chap1/apns.md)<br>
 [12.登入屏蔽](../chap1/blocklogin.md)<br>
-[13.申請表單](../chap1/fbuserinfo.md)<br>
+[13.申請表單](../chap1/form.md)<br>
 [附錄](../chap1/fbuserinfo.md) 
 
 >附錄 A. Message ...<br>
