@@ -111,8 +111,8 @@ NSString</a> </td>
 <td>產生客服回報頁面方法，參數為登入者的 uid</td>
 </tr>
 <tr>
-<td> - (void)
-gameActivity </td>
+<td> <a href="gameactivity.md#gameActivity">- (void)
+gameActivity</a> </td>
 <td>產生活動頁面方法</td>
 </tr>
 <tr>
