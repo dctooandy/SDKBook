@@ -156,6 +156,8 @@ sendMessage:@"xxx" autoSelect:NO];
 
 ####9.2.2 程式實作
 執行 Facebook 使用 Invitable token 發送 APP 邀請範例
+<span id="FB_sendInvitationWithToken"></span>
+
 >// 使用 Invitable token 向 Facebook 好友發送 APP 邀請<br>
 >[[LoginView sharedApplication] FB_sendInvitationWithToken: [Invitabletoken1, Invitabletoken2] sendMessage:@"xxx"];
 
