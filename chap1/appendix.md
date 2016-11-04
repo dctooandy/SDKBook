@@ -222,8 +222,8 @@ BOOL</a> </td>
 <td>(optional)接收帳號綁定結果(YES 或 NO)</td>
 </tr>
 <tr>
-<td> - (void)
-FB_getUserInfoComplete:NSDictionary </td>
+<td>  <a href="loginandplugin.md#FB_getUserInfoComplete">- (void)
+FB_getUserInfoComplete:NSDictionary</a> </td>
 <td>(optional)完整取得 FB 使用者基本資訊後的處理者</td>
 </tr>
 <tr>
