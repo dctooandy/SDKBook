@@ -105,9 +105,9 @@ NSString</a> </td>
 </tr>
 <td colspan="2" align="center">遊戲</td>
 <tr>
-<td> - (void)
+<td> <a href="customerandreport.md#serviceReport">- (void)
 serviceReport:
-NSString </td>
+NSString</a> </td>
 <td>產生客服回報頁面方法，參數為登入者的 uid</td>
 </tr>
 <tr>
