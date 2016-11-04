@@ -74,6 +74,8 @@
 
 ####9.1.2 程式實作
 執行 Facebook 發送 APP 邀請範例
+<span id="FB_inviteViaFriendList"></span>
+
 >執行 Facebook 發送 APP 邀請範例<br>
 >[[LoginView sharedApplication] FB_inviteViaFriendList:@"xxx"
 sendMessage:@"xxx" autoSelect:NO];
