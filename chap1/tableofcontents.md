@@ -45,7 +45,7 @@
 >10.2 取得深層資料(GetAFConversionData)流程說明...<br>
 >10.3 設定使用者郵件(SetAFUserEmails)流程說明...
 
-[11.訊息推播(APNS)](../chap1/fbuserinfo.md)<br>
+[11.訊息推播(APNS)](../chap1/apns.md)<br>
 [12.登入屏蔽](../chap1/fbuserinfo.md)<br>
 [13.申請表單](../chap1/fbuserinfo.md)<br>
 [附錄](../chap1/fbuserinfo.md) 
