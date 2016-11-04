@@ -170,7 +170,7 @@ NSString</a> </td>
 <td>向 Facebook 好友發送客製邀請</td>
 </tr>
 <tr>
-<td> - (void)
+<td> <a href="facebookshare.md#FB_autoSharing">- (void)
 FB_autoSharing:
 NSString
 Link:
@@ -180,7 +180,7 @@ NSString
 picUrl:
 NSString
 postMessage:
-NSString </td>
+NSString</a> </td>
 <td>可在使用者執行 APP 期間，代替於 Facebook 發佈動態</td>
 </tr>
 <td colspan="2" align="center">分析</td>
