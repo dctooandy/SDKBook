@@ -22,11 +22,11 @@
 >3.3 與 iSGame OAuth 伺服器介接方法 ...<br>
 >3.4 iSGame OAuth 伺服器返回 Game Server 資料...
 
-4.帳號綁定介接<br>
-5.客服回報介接<br>
-6.遊戲活動介接<br>
-7.遊戲公告介接<br>
-8.Facebook 使用者名單撈取介接
+[4.帳號綁定介接](../chap1/loginandplugin.md)<br>
+[5.客服回報介接](../chap1/loginandplugin.md)<br>
+[6.遊戲活動介接](../chap1/loginandplugin.md)<br>
+[7.遊戲公告介接](../chap1/loginandplugin.md)<br>
+[8.Facebook 使用者名單撈取介接](../chap1/loginandplugin.md)
 
 >8.1 取得使用者基本資訊(FB_getUserInfo)流程說明...<br>
 >8.2 取得已授權好友名單(FB_getAuthFndList)流程說明...<br>
