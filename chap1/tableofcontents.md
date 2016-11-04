@@ -39,7 +39,7 @@
 >9.3 發送客製邀請(FB_sendStory)流程說明...<br>
 >9.4 背景自動分享(FB_autoSharing)流程說明...
 
-[10.AppsFlyer 介接](../chap1/fbuserinfo.md)
+[10.AppsFlyer 介接](../chap1/appsflyerplugin.md)
 
 >10.1 寄送追蹤事件(SendAFTrackEvent)流程說明...<br>
 >10.2 取得深層資料(GetAFConversionData)流程說明...<br>
