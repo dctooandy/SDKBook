@@ -128,9 +128,9 @@ NSArray</a> </td>
 <td>取得 FB 使用者基本資訊</td>
 </tr>
 <tr>
-<td> - (void)
+<td> <a href="fbuserinfo.md#FB_getAuthFndList">- (void)
 FB_getAuthFndList:
-NSString </td>
+NSString</a> </td>
 <td>取得使用者 FB id 與已授權好友的 id、name、pictureUrl</td>
 </tr>
 <tr>
