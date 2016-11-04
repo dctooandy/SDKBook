@@ -23,7 +23,7 @@
 >3.4 iSGame OAuth 伺服器返回 Game Server 資料...
 
 [4.帳號綁定介接](../chap1/accountplugin.md)<br>
-[5.客服回報介接](../chap1/loginandplugin.md)<br>
+[5.客服回報介接](../chap1/customerandreport.md)<br>
 [6.遊戲活動介接](../chap1/loginandplugin.md)<br>
 [7.遊戲公告介接](../chap1/loginandplugin.md)<br>
 [8.Facebook 使用者名單撈取介接](../chap1/loginandplugin.md)
