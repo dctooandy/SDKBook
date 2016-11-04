@@ -148,6 +148,9 @@ didFailToRegisterForRemoteNotificationsWithError:(NSError *) error
 >接收 iSGameSDK 登入成功後回傳的授權碼(code)
 
 <span id = "SaveGameInfo"></span>
+
+<span id = "loginComplete"></span>
+
 ```objectivec
 @required
 - (void) loginComplete:(NSString *) code
