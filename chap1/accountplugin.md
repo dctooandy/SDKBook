@@ -5,7 +5,7 @@
 已綁定帳號的玩家可查看帳號資訊。
 
 ###4.2 程式實作
-<span ></span>
+<span id="startBinding"></span>
 
 >// 快登綁定方法，參數為登入者的 uid<br>
 >[[LoginView sharedApplication] startBinding:@"xxx"];
