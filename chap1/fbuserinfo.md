@@ -61,6 +61,7 @@
 
 ####8.1.2 程式實作
 執行取得 FB 使用者基本資訊範例
+<span id="FB_getUserInfo"></span>
 
 >// 取得 FB 使用者基本資訊<br>
 >[[LoginView sharedApplication] FB_getUserInfo:NSArray];
