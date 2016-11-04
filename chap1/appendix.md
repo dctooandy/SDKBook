@@ -227,9 +227,9 @@ FB_getUserInfoComplete:NSDictionary</a> </td>
 <td>(optional)完整取得 FB 使用者基本資訊後的處理者</td>
 </tr>
 <tr>
-<td> - (void)
+<td> <a href="loginandplugin.md#FB_getAuthFndListComplete">- (void)
 FB_getAuthFndListComplete:
-NSDictionary </td>
+NSDictionary</a> </td>
 <td>(optional)完整取得 FB 使用者名單後的處理者</td>
 </tr>
 <tr>
