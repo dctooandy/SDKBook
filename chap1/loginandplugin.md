@@ -181,6 +181,8 @@ didFailToRegisterForRemoteNotificationsWithError:(NSError *) error
 ```
 
 >完整取得 FB 使用者基本資訊後的處理者
+>
+<span id = "FB_getUserInfoComplete"></span>
 
 ```objectivec
 @optional
