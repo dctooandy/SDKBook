@@ -134,9 +134,9 @@ NSString</a> </td>
 <td>取得使用者 FB id 與已授權好友的 id、name、pictureUrl</td>
 </tr>
 <tr>
-<td> - (void)
+<td> <a href="fbuserinfo.md#FB_fetchInvitableToken">- (void)
 FB_fetchInvitableToken:
-NSArray </td>
+NSArray</a> </td>
 <td>取得使用者 FB id 與未授權好友的 inviteToken、name、 pictureUrl</td>
 </tr>
 <tr>
